@@ -4,9 +4,9 @@ import json
 import numpy as np
 import os
 
-# ==============================
+
 # CONFIG
-# ==============================
+
 
 BASE_DIR = os.getcwd()
 
@@ -27,18 +27,18 @@ if empty_img is None:
 with open(SLOTS_FILE) as f:
     slots = json.load(f)
 
-# ==============================
+
 # LOAD DATA
-# ==============================
+
 
 empty_img = cv2.imread(EMPTY_IMAGE)
 
 with open("slots.json") as f:
     slots = json.load(f)
 
-# ==============================
+
 # GROUND TRUTH: this is to check wether this classifier works well or not compared to real slot values 
-# ==============================
+
 
 ground_truth = {
     "img1.jpg": {"3": "occupied", "36": "occupied", "11": "empty", "40": "occupied", "78": "occupied"},
@@ -68,9 +68,9 @@ use_ground_truth = len(ground_truth) > 0
 correct = 0
 total = 0
 
-# ==============================
+
 # FUNCTIONS
-# ==============================
+
 
 def extract_slot_with_mask(image, points):
     if image is None:
@@ -91,11 +91,13 @@ def extract_slot_with_mask(image, points):
     return image_crop, mask_crop
 
 
-def grayscale_classifier_masked(empty_crop, current_crop, mask_crop, threshold=20):
+def grayscale_classifier_masked(empty_crop, current_crop, mask_crop,
+                                diff_threshold=35,
+                                occupancy_ratio_threshold=0.12):
     empty_gray = cv2.cvtColor(empty_crop, cv2.COLOR_BGR2GRAY)
     current_gray = cv2.cvtColor(current_crop, cv2.COLOR_BGR2GRAY)
 
-    # make sure shapes match
+
     current_gray = cv2.resize(
         current_gray,
         (empty_gray.shape[1], empty_gray.shape[0])
@@ -106,27 +108,32 @@ def grayscale_classifier_masked(empty_crop, current_crop, mask_crop, threshold=2
         interpolation=cv2.INTER_NEAREST
     )
 
-    # reduce noise 
+    # blur to reduce small noise
     empty_gray = cv2.GaussianBlur(empty_gray, (5, 5), 0)
     current_gray = cv2.GaussianBlur(current_gray, (5, 5), 0)
 
     # absolute difference
     diff = cv2.absdiff(empty_gray, current_gray)
 
-    # only compare pixels inside the ROI mask
-    roi_pixels = diff[mask_crop > 0]
+    # only keep ROI pixels
+    roi_diff = diff[mask_crop > 0]
 
-    if len(roi_pixels) == 0:
-        return False, 0.0
+    if len(roi_diff) == 0:
+        return False, 0.0, 0.0
 
-    score = np.mean(roi_pixels)
-    occupied = score > threshold
+    # count only "strongly changed" pixels
+    changed_pixels = np.sum(roi_diff > diff_threshold)
+    total_pixels = len(roi_diff)
 
-    return occupied, score
+    occupancy_ratio = changed_pixels / total_pixels
 
-# ==============================
+    occupied = occupancy_ratio > occupancy_ratio_threshold
+
+    return occupied, occupancy_ratio, np.mean(roi_diff)
+
+
 # MAIN LOOP
-# ==============================
+
 
 valid_exts = (".jpg", ".jpeg", ".png", ".bmp")
 images = sorted([f for f in os.listdir(FRAMES_FOLDER) if f.lower().endswith(valid_exts)])
@@ -142,7 +149,7 @@ for img_name in images:
 
     if frame is None:
         print(f"Skipping unreadable image: {frame_path}")
-        continue   # ✅ NOW VALID
+        continue   
 
     print(f"\nProcessing: {img_name}")
 
@@ -164,9 +171,10 @@ for img_name in images:
 
         print(f"Slot {slot_id}: {'OCCUPIED' if occupied else 'EMPTY'} | score={score:.2f}")
 
-        # ======================
+
+
         # EVALUATION
-        # ======================
+        
         if use_ground_truth and img_name in ground_truth:
             if slot_id in ground_truth[img_name]:
                 actual = ground_truth[img_name][slot_id]
@@ -177,10 +185,8 @@ for img_name in images:
                     print(f"Wrong: Slot {slot_id} | pred={prediction} | actual={actual}")
 
                 total += 1
-
-        # ======================
-        #VISUALIZATION
-        # ======================
+        #VISUALIZATION 
+        
         if SHOW_IMAGES:
             color = (0,255,0) if prediction == "empty" else (0,0,255)
 
@@ -205,9 +211,9 @@ for img_name in images:
 
 cv2.destroyAllWindows()
 
-# ==============================
+
 # FINAL ACCURACY
-# =============================
+
 
 if use_ground_truth and total > 0:
     accuracy = correct / total
