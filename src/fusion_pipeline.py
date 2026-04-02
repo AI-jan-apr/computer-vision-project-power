@@ -5,24 +5,30 @@ import numpy as np
 from ultralytics import YOLO
 from shapely.geometry import Polygon, Point
 
+from timer_logic import (
+    initialize_timer_state,
+    update_all_timers
+)
 
 # CONFIGURATION
 # we define all the files paths and system parameters here
 
-BASE_DIR = os.getcwd()
+#BASE_DIR = os.getcwd()
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-EMPTY_IMAGE = os.path.join(BASE_DIR, "empty_parking.jpg") # empty parking lot reference 
-IMAGE_PATH = os.path.join(BASE_DIR, "src", "frames_test", "parkingwithcar.jpg") # test image 
-SLOTS_FILE = os.path.join(BASE_DIR, "slots.json") # roi coordinates 
-MODEL_PATH = os.path.join(BASE_DIR, "src", "best.pt") # yolo model 
+
+EMPTY_IMAGE = os.path.join(BASE_DIR, "..",  "empty_parking.jpg") # empty parking lot reference
+IMAGE_PATH = os.path.join(BASE_DIR, "..", "src", "frames_sorted") # test image folder
+SLOTS_FILE = os.path.join(BASE_DIR, "..",  "slots.json") # roi coordinates
+MODEL_PATH = os.path.join(BASE_DIR, "..", "src", "best.pt") # yolo model
 SHOW_IMAGE = True
 
-# threshholds for all models 
-# GRAYSCALE SETTINGS 
+# threshholds for all models
+# GRAYSCALE SETTINGS
 DIFF_THRESHOLD = 40
 OCCUPANCY_RATIO_THRESHOLD = 0.15
 
-# YOLO SETTINGS 
+# YOLO SETTINGS
 YOLO_CONF_THRESHOLD = 0.10
 YOLO_OVERLAP_THRESHOLD = 0.40
 
@@ -39,22 +45,26 @@ print("MODEL PATH:", MODEL_PATH)
 print("EXISTS:", os.path.exists(MODEL_PATH))
 
 empty_img = cv2.imread(EMPTY_IMAGE)
-frame = cv2.imread(IMAGE_PATH)
 
 if empty_img is None:
     raise FileNotFoundError("Empty parking image not found")
 
-if frame is None:
-    raise FileNotFoundError("Test image not found")
-
 with open(SLOTS_FILE, "r") as f:
     slots = json.load(f)
+
+initialize_timer_state(slots)
 
 model = YOLO(MODEL_PATH)
 
 # FUNCTIONS
 
-# this is the ROI extraction function 
+def get_ordered_images(folder):
+    valid_ext = (".jpg", ".jpeg", ".png")
+    files = [f for f in os.listdir(folder) if f.lower().endswith(valid_ext)]
+    files.sort()
+    return [os.path.join(folder, f) for f in files]
+
+# this is the ROI extraction function
 def extract_slot_with_mask(image, points):
     pts = np.array(points, np.int32)
 
@@ -65,7 +75,7 @@ def extract_slot_with_mask(image, points):
 
     return image[y:y+h, x:x+w], mask[y:y+h, x:x+w]
 
-# this is the grayscale classifier 
+# this is the grayscale classifier
 
 def grayscale_classifier(empty_crop, current_crop, mask_crop):
     empty_gray = cv2.cvtColor(empty_crop, cv2.COLOR_BGR2GRAY)
@@ -88,7 +98,7 @@ def grayscale_classifier(empty_crop, current_crop, mask_crop):
 
     return ratio > OCCUPANCY_RATIO_THRESHOLD, ratio
 
-# this is the yolo detection function 
+# this is the yolo detection function
 
 def detect_objects(frame):
     results = model(frame, verbose=False)[0]
@@ -105,20 +115,20 @@ def detect_objects(frame):
 
     return detections
 
-# geometry function, this is to map the detection to the parking slots, using main and fallback checks 
+# geometry function, this is to map the detection to the parking slots, using main and fallback checks
 def point_in_polygon(x1, y1, x2, y2, polygon):
     bx = (x1 + x2) / 2
     by = y2
-    return polygon.contains(Point(bx, by)) # main - bottom center point 
+    return polygon.contains(Point(bx, by)) # main - bottom center point
 
 
 def overlap_ratio(x1, y1, x2, y2, polygon):
     box = Polygon([(x1,y1),(x2,y1),(x2,y2),(x1,y2)])
     inter = polygon.intersection(box).area
-    return inter / polygon.area if polygon.area > 0 else 0 # fallback - overlap ratio 
+    return inter / polygon.area if polygon.area > 0 else 0 # fallback - overlap ratio
 
-# YOLO slot classifier - to determine if a slot is occupied using YOLO, 
-# checks if detection is inside the slot, or over laps with slot, then returns confidence and occupation 
+# YOLO slot classifier - to determine if a slot is occupied using YOLO,
+# checks if detection is inside the slot, or over laps with slot, then returns confidence and occupation
 def yolo_classifier(slot_pts, detections):
     poly = Polygon(slot_pts)
 
@@ -135,10 +145,10 @@ def yolo_classifier(slot_pts, detections):
 
     return occupied, best_conf
 
-# fusion function, 
-# combines between grayscale and yolo decisions, however yolo has a higher priority 
-# grayscale only supports or acts as fallback 
-# this is to improve robustness when lightings and shadows occur 
+# fusion function,
+# combines between grayscale and yolo decisions, however yolo has a higher priority
+# grayscale only supports or acts as fallback
+# this is to improve robustness when lightings and shadows occur
 
 def fuse(gray_occ, gray_ratio, yolo_occ, yolo_conf):
     # YOLO strong wins
@@ -158,56 +168,94 @@ def fuse(gray_occ, gray_ratio, yolo_occ, yolo_conf):
 
 
 # RUN THE FULL PIPELINE
-# 1 - detect vehicles using yolo 
-# 2 - draw bounding boxes 
+# 1 - detect vehicles using yolo
+# 2 - draw bounding boxes
 # 3 - for each slot, grayscale, yolo and fusion to get final decision
 
-detections = detect_objects(frame)
+image_paths = get_ordered_images(IMAGE_PATH)[:30]
 
-print(f"\nDetected objects: {len(detections)}\n")
+for image_path in image_paths:
+    frame = cv2.imread(image_path)
 
-# draw YOLO boxes
-for x1,y1,x2,y2,conf in detections:
-    cv2.rectangle(frame, (int(x1),int(y1)), (int(x2),int(y2)), (255,255,0), 2)
-    cv2.putText(frame, f"{conf:.2f}", (int(x1), int(y1)-5),
-                cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255,255,0), 1)
+    if frame is None:
+        print(f"Could not read image: {image_path}")
+        continue
 
-# process slots
-for slot in slots:
-    slot_id = str(slot["slot_id"])
-    pts = slot["points"]
+    detections = detect_objects(frame)
 
-    empty_crop, mask_crop = extract_slot_with_mask(empty_img, pts)
-    current_crop, _ = extract_slot_with_mask(frame, pts)
+    print(f"\nProcessing: {os.path.basename(image_path)}")
+    print(f"\nDetected objects: {len(detections)}\n")
 
-  
-    gray_occ, gray_ratio = grayscale_classifier(
-        empty_crop,
-        current_crop,
-        mask_crop
-    )
+    # draw YOLO boxes
+    for x1,y1,x2,y2,conf in detections:
+        cv2.rectangle(frame, (int(x1),int(y1)), (int(x2),int(y2)), (255,255,0), 2)
+        cv2.putText(frame, f"{conf:.2f}", (int(x1), int(y1)-5),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255,255,0), 1)
 
-    yolo_occ, yolo_conf = yolo_classifier(pts, detections)
+    slot_results = []
 
-    final = fuse(gray_occ, gray_ratio, yolo_occ, yolo_conf)
+    # process slots
+    for slot in slots:
+        slot_id = str(slot["slot_id"])
+        pts = slot["points"]
 
-    print(f"Slot {slot_id} | G:{gray_ratio:.2f} | Y:{yolo_conf:.2f} | FINAL:{final}")
-
-    color = (0,255,0) if final == "empty" else (0,0,255)
-
-    pts_np = np.array(pts, np.int32)
-    cv2.polylines(frame, [pts_np], True, color, 2)
-
-    x,y = pts_np[0]
-    cv2.putText(frame, slot_id, (x,y-5),
-                cv2.FONT_HERSHEY_SIMPLEX, 0.4, color, 1)
+        empty_crop, mask_crop = extract_slot_with_mask(empty_img, pts)
+        current_crop, _ = extract_slot_with_mask(frame, pts)
 
 
+        gray_occ, gray_ratio = grayscale_classifier(
+            empty_crop,
+            current_crop,
+            mask_crop
+        )
 
-# DISPLAY
+        yolo_occ, yolo_conf = yolo_classifier(pts, detections)
+
+        final = fuse(gray_occ, gray_ratio, yolo_occ, yolo_conf)
+
+        slot_results.append({
+            "slot_id": slot_id,
+            "final_status": final
+        })
+
+        if slot_id in ["1"]:
+            print(f"Slot {slot_id} | G:{gray_ratio:.2f} | Y:{yolo_conf:.2f} | FINAL:{final}")
+
+    alerts = update_all_timers(slot_results)
+
+    for alert in alerts:
+        print(alert["message"])
+
+    # draw final slot states after timing update
+    for result, slot in zip(slot_results, slots):
+        slot_id = result["slot_id"]
+        final = result["final_status"]
+        occupied_minutes = result["occupied_minutes"]
+        exceeded = result["time_exceeded"]
+        pts = slot["points"]
+
+        if exceeded:
+            color = (0,165,255)   # orange
+        else:
+            color = (0,255,0) if final == "empty" else (0,0,255)
+
+        pts_np = np.array(pts, np.int32)
+        cv2.polylines(frame, [pts_np], True, color, 2)
+
+        x,y = pts_np[0]
+        
+        cv2.putText(frame, f"{slot_id} | {occupied_minutes}m", (x,y-5),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.4, color, 1)
 
 
-if SHOW_IMAGE:
-    cv2.imshow("Fusion Output", frame)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+
+    # DISPLAY
+
+
+    if SHOW_IMAGE:
+        cv2.imshow("Fusion Output", frame)
+        key = cv2.waitKey(800)
+        if key == 27:
+            break
+
+cv2.destroyAllWindows()
