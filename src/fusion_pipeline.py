@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EMPTY_IMAGE = os.path.join(BASE_DIR, "..",  "empty_parking.jpg") # empty parking lot reference
 IMAGE_PATH = os.path.join(BASE_DIR, "..", "src", "frames_sorted") # test image folder
 SLOTS_FILE = os.path.join(BASE_DIR, "..",  "slots.json") # roi coordinates
-MODEL_PATH = os.path.join(BASE_DIR, "..", "src", "best.pt") # yolo model
+MODEL_PATH = os.path.join(BASE_DIR, "..", "src", "best-2.pt") # yolo model
 SHOW_IMAGE = True
 
 # threshholds for all models
