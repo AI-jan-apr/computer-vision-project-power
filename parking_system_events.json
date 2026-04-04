@@ -1,0 +1,7030 @@
+[
+    {
+        "frame": 39,
+        "slot_id": 1,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 2,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 3,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 4,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 5,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 6,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 7,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 8,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 9,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 10,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 11,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 12,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 13,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 14,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 15,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 16,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 17,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 18,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 19,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 20,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 21,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 22,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 23,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 24,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 25,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 26,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 27,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 28,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 29,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 30,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 31,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 32,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 33,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 35,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 36,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 37,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 38,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 39,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 40,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 41,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 42,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 43,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 44,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 45,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 46,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 47,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 48,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 49,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 50,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 51,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 52,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 54,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 56,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 58,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 59,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 60,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 61,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 62,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 63,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 65,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 66,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 68,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 69,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 70,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 72,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 73,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 75,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 76,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 77,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 78,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 79,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 80,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 81,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 82,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 83,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 85,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 86,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 88,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 89,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 90,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 91,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 92,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 93,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 94,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 95,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 96,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 97,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 98,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 99,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 100,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 103,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 104,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 105,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 106,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 107,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 108,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 109,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 110,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 111,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 112,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 113,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 114,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 116,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 117,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 119,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 120,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 121,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 123,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 124,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 125,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 126,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 127,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 129,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 130,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 131,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 132,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 133,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 134,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 136,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 137,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 138,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 139,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 140,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 141,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 143,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 144,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 145,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 146,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 148,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 149,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 150,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 151,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 152,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 154,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 155,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 157,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 158,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 159,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 160,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 161,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 163,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 165,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 167,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 169,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 171,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 174,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 176,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 178,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 179,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 181,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 182,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 183,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 184,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 186,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 187,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 188,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 189,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 190,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 191,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 192,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 193,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 195,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 196,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 197,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 200,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 202,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 203,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 204,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 205,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 206,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 207,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 208,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 209,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 210,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 211,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 214,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 215,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 216,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 219,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 221,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 222,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 223,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 224,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 226,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 227,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 233,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 235,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 236,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 237,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 239,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 244,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 247,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 248,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 249,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 250,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 251,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 252,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 255,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 261,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 262,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 265,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 266,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 269,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 271,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 273,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 276,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 278,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 279,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 280,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 281,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 282,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 283,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 285,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 286,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 292,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 293,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 296,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 297,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 299,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 301,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 303,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 304,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 305,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 306,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 307,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 312,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 315,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 316,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 318,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 319,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 321,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 323,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 324,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 326,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 327,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 329,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 330,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 331,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 39,
+        "slot_id": 337,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 42,
+        "slot_id": 156,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 42,
+        "slot_id": 212,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 42,
+        "slot_id": 217,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 45,
+        "slot_id": 102,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 45,
+        "slot_id": 135,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 45,
+        "slot_id": 264,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 48,
+        "slot_id": 185,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 48,
+        "slot_id": 201,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 51,
+        "slot_id": 259,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 51,
+        "slot_id": 270,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 51,
+        "slot_id": 290,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 51,
+        "slot_id": 295,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 51,
+        "slot_id": 320,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 54,
+        "slot_id": 84,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 54,
+        "slot_id": 115,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 54,
+        "slot_id": 164,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 57,
+        "slot_id": 307,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 60,
+        "slot_id": 237,
+        "event": "occupied_ended",
+        "duration_seconds": 0.7007
+    },
+    {
+        "frame": 60,
+        "slot_id": 260,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 60,
+        "slot_id": 264,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 60,
+        "slot_id": 270,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 60,
+        "slot_id": 320,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 60,
+        "slot_id": 334,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 63,
+        "slot_id": 135,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 63,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 63,
+        "slot_id": 170,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 63,
+        "slot_id": 180,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 63,
+        "slot_id": 201,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 63,
+        "slot_id": 294,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 63,
+        "slot_id": 317,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 63,
+        "slot_id": 327,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 66,
+        "slot_id": 118,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 66,
+        "slot_id": 230,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 69,
+        "slot_id": 231,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 72,
+        "slot_id": 201,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 72,
+        "slot_id": 309,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 72,
+        "slot_id": 330,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 75,
+        "slot_id": 43,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 78,
+        "slot_id": 31,
+        "event": "occupied_ended",
+        "duration_seconds": 1.3013000000000001
+    },
+    {
+        "frame": 78,
+        "slot_id": 264,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 78,
+        "slot_id": 274,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 78,
+        "slot_id": 282,
+        "event": "occupied_ended",
+        "duration_seconds": 1.3013000000000001
+    },
+    {
+        "frame": 78,
+        "slot_id": 283,
+        "event": "occupied_ended",
+        "duration_seconds": 1.3013000000000001
+    },
+    {
+        "frame": 78,
+        "slot_id": 332,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 84,
+        "slot_id": 275,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 84,
+        "slot_id": 307,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 87,
+        "slot_id": 31,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 87,
+        "slot_id": 45,
+        "event": "occupied_ended",
+        "duration_seconds": 1.6016000000000001
+    },
+    {
+        "frame": 87,
+        "slot_id": 283,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 87,
+        "slot_id": 289,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 90,
+        "slot_id": 43,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 90,
+        "slot_id": 110,
+        "event": "occupied_ended",
+        "duration_seconds": 1.7017
+    },
+    {
+        "frame": 90,
+        "slot_id": 203,
+        "event": "occupied_ended",
+        "duration_seconds": 1.7017
+    },
+    {
+        "frame": 90,
+        "slot_id": 332,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 93,
+        "slot_id": 34,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 93,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 93,
+        "slot_id": 186,
+        "event": "occupied_ended",
+        "duration_seconds": 1.8018
+    },
+    {
+        "frame": 93,
+        "slot_id": 275,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 93,
+        "slot_id": 296,
+        "event": "occupied_ended",
+        "duration_seconds": 1.8018
+    },
+    {
+        "frame": 96,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 96,
+        "slot_id": 290,
+        "event": "occupied_ended",
+        "duration_seconds": 1.5015
+    },
+    {
+        "frame": 99,
+        "slot_id": 110,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 99,
+        "slot_id": 203,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 99,
+        "slot_id": 212,
+        "event": "occupied_ended",
+        "duration_seconds": 1.9019
+    },
+    {
+        "frame": 102,
+        "slot_id": 45,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 102,
+        "slot_id": 118,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 102,
+        "slot_id": 186,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 102,
+        "slot_id": 191,
+        "event": "occupied_ended",
+        "duration_seconds": 2.1021
+    },
+    {
+        "frame": 102,
+        "slot_id": 225,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 102,
+        "slot_id": 285,
+        "event": "occupied_ended",
+        "duration_seconds": 2.1021
+    },
+    {
+        "frame": 105,
+        "slot_id": 180,
+        "event": "occupied_ended",
+        "duration_seconds": 1.4014
+    },
+    {
+        "frame": 111,
+        "slot_id": 6,
+        "event": "occupied_ended",
+        "duration_seconds": 2.4024
+    },
+    {
+        "frame": 111,
+        "slot_id": 31,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 111,
+        "slot_id": 147,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 111,
+        "slot_id": 191,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 111,
+        "slot_id": 232,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 111,
+        "slot_id": 238,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 111,
+        "slot_id": 275,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 111,
+        "slot_id": 285,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 111,
+        "slot_id": 288,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 111,
+        "slot_id": 296,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 111,
+        "slot_id": 330,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 114,
+        "slot_id": 34,
+        "event": "occupied_ended",
+        "duration_seconds": 0.7007
+    },
+    {
+        "frame": 114,
+        "slot_id": 228,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 114,
+        "slot_id": 282,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 117,
+        "slot_id": 74,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 120,
+        "slot_id": 55,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 120,
+        "slot_id": 118,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 120,
+        "slot_id": 162,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 120,
+        "slot_id": 283,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 123,
+        "slot_id": 6,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 126,
+        "slot_id": 74,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 126,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 126,
+        "slot_id": 212,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 126,
+        "slot_id": 220,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 129,
+        "slot_id": 31,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 129,
+        "slot_id": 34,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 129,
+        "slot_id": 213,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 129,
+        "slot_id": 237,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 129,
+        "slot_id": 333,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 132,
+        "slot_id": 39,
+        "event": "occupied_ended",
+        "duration_seconds": 3.1031
+    },
+    {
+        "frame": 132,
+        "slot_id": 270,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 132,
+        "slot_id": 295,
+        "event": "occupied_ended",
+        "duration_seconds": 2.7027
+    },
+    {
+        "frame": 135,
+        "slot_id": 135,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 135,
+        "slot_id": 175,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 135,
+        "slot_id": 191,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 135,
+        "slot_id": 249,
+        "event": "occupied_ended",
+        "duration_seconds": 3.2032000000000003
+    },
+    {
+        "frame": 138,
+        "slot_id": 286,
+        "event": "occupied_ended",
+        "duration_seconds": 3.3033
+    },
+    {
+        "frame": 141,
+        "slot_id": 101,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 141,
+        "slot_id": 237,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 141,
+        "slot_id": 270,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 141,
+        "slot_id": 285,
+        "event": "occupied_ended",
+        "duration_seconds": 1.0010000000000001
+    },
+    {
+        "frame": 141,
+        "slot_id": 287,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 144,
+        "slot_id": 180,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 144,
+        "slot_id": 217,
+        "event": "occupied_ended",
+        "duration_seconds": 3.4034
+    },
+    {
+        "frame": 144,
+        "slot_id": 283,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 147,
+        "slot_id": 6,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 147,
+        "slot_id": 23,
+        "event": "occupied_ended",
+        "duration_seconds": 3.6036
+    },
+    {
+        "frame": 147,
+        "slot_id": 175,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 147,
+        "slot_id": 177,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 147,
+        "slot_id": 227,
+        "event": "occupied_ended",
+        "duration_seconds": 3.6036
+    },
+    {
+        "frame": 147,
+        "slot_id": 249,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 147,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 147,
+        "slot_id": 322,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 156,
+        "slot_id": 102,
+        "event": "occupied_ended",
+        "duration_seconds": 3.7037
+    },
+    {
+        "frame": 156,
+        "slot_id": 191,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 159,
+        "slot_id": 23,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 159,
+        "slot_id": 139,
+        "event": "occupied_ended",
+        "duration_seconds": 4.0040000000000004
+    },
+    {
+        "frame": 159,
+        "slot_id": 254,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 159,
+        "slot_id": 257,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 159,
+        "slot_id": 300,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 162,
+        "slot_id": 53,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 162,
+        "slot_id": 175,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 162,
+        "slot_id": 217,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 162,
+        "slot_id": 227,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 162,
+        "slot_id": 238,
+        "event": "occupied_ended",
+        "duration_seconds": 1.7017
+    },
+    {
+        "frame": 168,
+        "slot_id": 286,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 171,
+        "slot_id": 6,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 171,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 171,
+        "slot_id": 238,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 174,
+        "slot_id": 128,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 174,
+        "slot_id": 138,
+        "event": "occupied_ended",
+        "duration_seconds": 4.5045
+    },
+    {
+        "frame": 174,
+        "slot_id": 173,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 174,
+        "slot_id": 237,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 174,
+        "slot_id": 240,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 174,
+        "slot_id": 270,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 174,
+        "slot_id": 291,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 174,
+        "slot_id": 313,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 177,
+        "slot_id": 101,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 177,
+        "slot_id": 168,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 177,
+        "slot_id": 256,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 177,
+        "slot_id": 263,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 177,
+        "slot_id": 290,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 177,
+        "slot_id": 298,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 180,
+        "slot_id": 16,
+        "event": "occupied_ended",
+        "duration_seconds": 4.7047
+    },
+    {
+        "frame": 180,
+        "slot_id": 39,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 180,
+        "slot_id": 74,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 180,
+        "slot_id": 117,
+        "event": "occupied_ended",
+        "duration_seconds": 4.7047
+    },
+    {
+        "frame": 180,
+        "slot_id": 118,
+        "event": "occupied_ended",
+        "duration_seconds": 2.0020000000000002
+    },
+    {
+        "frame": 180,
+        "slot_id": 122,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 183,
+        "slot_id": 138,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 183,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 183,
+        "slot_id": 248,
+        "event": "occupied_ended",
+        "duration_seconds": 4.8048
+    },
+    {
+        "frame": 186,
+        "slot_id": 67,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 189,
+        "slot_id": 1,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 2,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 3,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 4,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 5,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 7,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 8,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 9,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 10,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 11,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 12,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 13,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 14,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 15,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 17,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 18,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 19,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 20,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 21,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 22,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 24,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 25,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 26,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 27,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 28,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 29,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 30,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 32,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 33,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 35,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 36,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 37,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 38,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 39,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 189,
+        "slot_id": 40,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 41,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 42,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 44,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 46,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 47,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 48,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 49,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 50,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 51,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 52,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 54,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 56,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 58,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 59,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 60,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 61,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 62,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 63,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 65,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 66,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 68,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 69,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 70,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 72,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 73,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 75,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 76,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 77,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 78,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 79,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 80,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 81,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 82,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 83,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 85,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 86,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 88,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 89,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 90,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 91,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 92,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 93,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 94,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 95,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 96,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 97,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 98,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 99,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 100,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 103,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 104,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 105,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 106,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 107,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 108,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 109,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 111,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 112,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 113,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 114,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 116,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 118,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 189,
+        "slot_id": 119,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 120,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 121,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 123,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 124,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 125,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 126,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 127,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 129,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 130,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 131,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 132,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 133,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 134,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 136,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 137,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 140,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 141,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 143,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 144,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 145,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 146,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 148,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 149,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 150,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 151,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 152,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 154,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 155,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 157,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 158,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 159,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 160,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 161,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 163,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 165,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 167,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 169,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 171,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 174,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 176,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 178,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 179,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 181,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 182,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 183,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 184,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 187,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 188,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 189,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 190,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 192,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 193,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 195,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 196,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 197,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 200,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 202,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 204,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 205,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 206,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 207,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 208,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 209,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 210,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 211,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 214,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 215,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 216,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 219,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 221,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 222,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 223,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 224,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 226,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 233,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 235,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 236,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 239,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 244,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 247,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 250,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 251,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 252,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 255,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 261,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 262,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 265,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 266,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 269,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 271,
+        "event": "occupied_ended",
+        "duration_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 273,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 276,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 278,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 279,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 280,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 281,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 292,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 293,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 297,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 299,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 301,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 303,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 304,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 305,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 306,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 312,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 315,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 316,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 318,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 319,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 321,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 323,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 324,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 326,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 329,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 331,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 189,
+        "slot_id": 337,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 192,
+        "slot_id": 28,
+        "event": "occupied_ended",
+        "duration_seconds": 5.1051
+    },
+    {
+        "frame": 192,
+        "slot_id": 117,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 192,
+        "slot_id": 156,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 192,
+        "slot_id": 298,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 195,
+        "slot_id": 295,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 198,
+        "slot_id": 102,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 198,
+        "slot_id": 127,
+        "event": "occupied_ended",
+        "duration_seconds": 5.3053
+    },
+    {
+        "frame": 198,
+        "slot_id": 138,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 198,
+        "slot_id": 185,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 198,
+        "slot_id": 217,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 198,
+        "slot_id": 246,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 198,
+        "slot_id": 285,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 201,
+        "slot_id": 28,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 201,
+        "slot_id": 259,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 204,
+        "slot_id": 16,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 204,
+        "slot_id": 39,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 204,
+        "slot_id": 84,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 204,
+        "slot_id": 115,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 204,
+        "slot_id": 139,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 204,
+        "slot_id": 164,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 204,
+        "slot_id": 168,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 207,
+        "slot_id": 127,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 207,
+        "slot_id": 138,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 210,
+        "slot_id": 245,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 210,
+        "slot_id": 260,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 210,
+        "slot_id": 334,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 213,
+        "slot_id": 147,
+        "event": "occupied_ended",
+        "duration_seconds": 3.4034
+    },
+    {
+        "frame": 213,
+        "slot_id": 168,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 213,
+        "slot_id": 170,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 213,
+        "slot_id": 243,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 213,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 3.9039
+    },
+    {
+        "frame": 213,
+        "slot_id": 294,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 213,
+        "slot_id": 295,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 213,
+        "slot_id": 317,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 216,
+        "slot_id": 230,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 219,
+        "slot_id": 166,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 219,
+        "slot_id": 231,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 222,
+        "slot_id": 102,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 222,
+        "slot_id": 127,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 222,
+        "slot_id": 138,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 222,
+        "slot_id": 139,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 222,
+        "slot_id": 201,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 222,
+        "slot_id": 246,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 222,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 222,
+        "slot_id": 264,
+        "event": "occupied_ended",
+        "duration_seconds": 4.8048
+    },
+    {
+        "frame": 222,
+        "slot_id": 271,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 222,
+        "slot_id": 309,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 225,
+        "slot_id": 314,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 228,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 228,
+        "slot_id": 147,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 228,
+        "slot_id": 248,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 228,
+        "slot_id": 274,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 234,
+        "slot_id": 307,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 237,
+        "slot_id": 147,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 237,
+        "slot_id": 168,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 237,
+        "slot_id": 249,
+        "event": "occupied_ended",
+        "duration_seconds": 3.003
+    },
+    {
+        "frame": 237,
+        "slot_id": 264,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 237,
+        "slot_id": 289,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 237,
+        "slot_id": 321,
+        "event": "occupied_ended",
+        "duration_seconds": 6.6066
+    },
+    {
+        "frame": 240,
+        "slot_id": 43,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 240,
+        "slot_id": 236,
+        "event": "occupied_ended",
+        "duration_seconds": 6.7067000000000005
+    },
+    {
+        "frame": 240,
+        "slot_id": 271,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 246,
+        "slot_id": 127,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 246,
+        "slot_id": 138,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 246,
+        "slot_id": 168,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 246,
+        "slot_id": 198,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 246,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 246,
+        "slot_id": 295,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 246,
+        "slot_id": 332,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 246,
+        "slot_id": 333,
+        "event": "occupied_ended",
+        "duration_seconds": 3.9039
+    },
+    {
+        "frame": 249,
+        "slot_id": 32,
+        "event": "occupied_ended",
+        "duration_seconds": 7.007000000000001
+    },
+    {
+        "frame": 249,
+        "slot_id": 110,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 249,
+        "slot_id": 203,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 252,
+        "slot_id": 45,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 252,
+        "slot_id": 186,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 252,
+        "slot_id": 225,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 255,
+        "slot_id": 117,
+        "event": "occupied_ended",
+        "duration_seconds": 2.1021
+    },
+    {
+        "frame": 255,
+        "slot_id": 236,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 255,
+        "slot_id": 276,
+        "event": "occupied_ended",
+        "duration_seconds": 7.2072
+    },
+    {
+        "frame": 255,
+        "slot_id": 304,
+        "event": "occupied_ended",
+        "duration_seconds": 7.2072
+    },
+    {
+        "frame": 255,
+        "slot_id": 332,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 261,
+        "slot_id": 232,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 261,
+        "slot_id": 275,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 261,
+        "slot_id": 288,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 261,
+        "slot_id": 296,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 261,
+        "slot_id": 330,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 264,
+        "slot_id": 117,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 264,
+        "slot_id": 122,
+        "event": "occupied_ended",
+        "duration_seconds": 2.8028
+    },
+    {
+        "frame": 264,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 264,
+        "slot_id": 228,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 264,
+        "slot_id": 257,
+        "event": "occupied_ended",
+        "duration_seconds": 1.4014
+    },
+    {
+        "frame": 264,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 264,
+        "slot_id": 282,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 264,
+        "slot_id": 301,
+        "event": "occupied_ended",
+        "duration_seconds": 7.5075
+    },
+    {
+        "frame": 264,
+        "slot_id": 304,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 264,
+        "slot_id": 321,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 267,
+        "slot_id": 127,
+        "event": "occupied_ended",
+        "duration_seconds": 0.7007
+    },
+    {
+        "frame": 267,
+        "slot_id": 138,
+        "event": "occupied_ended",
+        "duration_seconds": 0.7007
+    },
+    {
+        "frame": 267,
+        "slot_id": 333,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 270,
+        "slot_id": 32,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 270,
+        "slot_id": 55,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 270,
+        "slot_id": 147,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 270,
+        "slot_id": 162,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 270,
+        "slot_id": 243,
+        "event": "occupied_ended",
+        "duration_seconds": 1.9019
+    },
+    {
+        "frame": 273,
+        "slot_id": 24,
+        "event": "occupied_ended",
+        "duration_seconds": 7.8078
+    },
+    {
+        "frame": 273,
+        "slot_id": 249,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 273,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 276,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 276,
+        "slot_id": 166,
+        "event": "occupied_ended",
+        "duration_seconds": 1.9019
+    },
+    {
+        "frame": 276,
+        "slot_id": 212,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 276,
+        "slot_id": 220,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 279,
+        "slot_id": 31,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 279,
+        "slot_id": 34,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 279,
+        "slot_id": 198,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 279,
+        "slot_id": 213,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 279,
+        "slot_id": 276,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 282,
+        "slot_id": 119,
+        "event": "occupied_ended",
+        "duration_seconds": 8.1081
+    },
+    {
+        "frame": 282,
+        "slot_id": 122,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 282,
+        "slot_id": 236,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 282,
+        "slot_id": 257,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 282,
+        "slot_id": 301,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 285,
+        "slot_id": 16,
+        "event": "occupied_ended",
+        "duration_seconds": 2.7027
+    },
+    {
+        "frame": 285,
+        "slot_id": 135,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 285,
+        "slot_id": 245,
+        "event": "occupied_ended",
+        "duration_seconds": 2.5025
+    },
+    {
+        "frame": 288,
+        "slot_id": 116,
+        "event": "occupied_ended",
+        "duration_seconds": 8.308300000000001
+    },
+    {
+        "frame": 288,
+        "slot_id": 135,
+        "event": "occupied_ended",
+        "duration_seconds": 5.1051
+    },
+    {
+        "frame": 288,
+        "slot_id": 215,
+        "event": "occupied_ended",
+        "duration_seconds": 8.308300000000001
+    },
+    {
+        "frame": 288,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 291,
+        "slot_id": 166,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 291,
+        "slot_id": 271,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 291,
+        "slot_id": 287,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 294,
+        "slot_id": 67,
+        "event": "occupied_ended",
+        "duration_seconds": 3.6036
+    },
+    {
+        "frame": 294,
+        "slot_id": 180,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 294,
+        "slot_id": 283,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 297,
+        "slot_id": 168,
+        "event": "occupied_ended",
+        "duration_seconds": 1.7017
+    },
+    {
+        "frame": 297,
+        "slot_id": 177,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 297,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 297,
+        "slot_id": 314,
+        "event": "occupied_ended",
+        "duration_seconds": 2.4024
+    },
+    {
+        "frame": 297,
+        "slot_id": 322,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 306,
+        "slot_id": 116,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 306,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 1.0010000000000001
+    },
+    {
+        "frame": 306,
+        "slot_id": 191,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 306,
+        "slot_id": 215,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 306,
+        "slot_id": 248,
+        "event": "occupied_ended",
+        "duration_seconds": 2.6026000000000002
+    },
+    {
+        "frame": 309,
+        "slot_id": 23,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 309,
+        "slot_id": 101,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 309,
+        "slot_id": 254,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 309,
+        "slot_id": 300,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 309,
+        "slot_id": 322,
+        "event": "occupied_ended",
+        "duration_seconds": 5.4054
+    },
+    {
+        "frame": 312,
+        "slot_id": 16,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 312,
+        "slot_id": 53,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 312,
+        "slot_id": 122,
+        "event": "occupied_ended",
+        "duration_seconds": 1.0010000000000001
+    },
+    {
+        "frame": 312,
+        "slot_id": 173,
+        "event": "occupied_ended",
+        "duration_seconds": 4.6046000000000005
+    },
+    {
+        "frame": 312,
+        "slot_id": 175,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 312,
+        "slot_id": 227,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 312,
+        "slot_id": 237,
+        "event": "occupied_ended",
+        "duration_seconds": 4.6046000000000005
+    },
+    {
+        "frame": 312,
+        "slot_id": 270,
+        "event": "occupied_ended",
+        "duration_seconds": 4.6046000000000005
+    },
+    {
+        "frame": 315,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 315,
+        "slot_id": 248,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 318,
+        "slot_id": 135,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 318,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 1.0010000000000001
+    },
+    {
+        "frame": 318,
+        "slot_id": 286,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 321,
+        "slot_id": 6,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 321,
+        "slot_id": 237,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 321,
+        "slot_id": 238,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 321,
+        "slot_id": 270,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 324,
+        "slot_id": 24,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 324,
+        "slot_id": 119,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 324,
+        "slot_id": 128,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 324,
+        "slot_id": 138,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 324,
+        "slot_id": 236,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 324,
+        "slot_id": 240,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 324,
+        "slot_id": 254,
+        "event": "occupied_ended",
+        "duration_seconds": 5.5055000000000005
+    },
+    {
+        "frame": 324,
+        "slot_id": 291,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 324,
+        "slot_id": 313,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 324,
+        "slot_id": 333,
+        "event": "occupied_ended",
+        "duration_seconds": 1.9019
+    },
+    {
+        "frame": 327,
+        "slot_id": 127,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 327,
+        "slot_id": 130,
+        "event": "occupied_ended",
+        "duration_seconds": 9.6096
+    },
+    {
+        "frame": 327,
+        "slot_id": 256,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 327,
+        "slot_id": 263,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 327,
+        "slot_id": 290,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 327,
+        "slot_id": 322,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 330,
+        "slot_id": 74,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 330,
+        "slot_id": 185,
+        "event": "occupied_ended",
+        "duration_seconds": 9.4094
+    },
+    {
+        "frame": 330,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 339,
+        "slot_id": 118,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 339,
+        "slot_id": 162,
+        "event": "occupied_ended",
+        "duration_seconds": 7.307300000000001
+    },
+    {
+        "frame": 339,
+        "slot_id": 185,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 339,
+        "slot_id": 322,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 342,
+        "slot_id": 130,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 342,
+        "slot_id": 257,
+        "event": "occupied_ended",
+        "duration_seconds": 1.5015
+    },
+    {
+        "frame": 345,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 348,
+        "slot_id": 16,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 348,
+        "slot_id": 30,
+        "event": "occupied_ended",
+        "duration_seconds": 10.3103
+    },
+    {
+        "frame": 348,
+        "slot_id": 285,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 351,
+        "slot_id": 28,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 354,
+        "slot_id": 39,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 354,
+        "slot_id": 74,
+        "event": "occupied_ended",
+        "duration_seconds": 5.8058000000000005
+    },
+    {
+        "frame": 354,
+        "slot_id": 147,
+        "event": "occupied_ended",
+        "duration_seconds": 2.8028
+    },
+    {
+        "frame": 354,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 357,
+        "slot_id": 30,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 357,
+        "slot_id": 46,
+        "event": "occupied_ended",
+        "duration_seconds": 10.6106
+    },
+    {
+        "frame": 357,
+        "slot_id": 116,
+        "event": "occupied_ended",
+        "duration_seconds": 1.7017
+    },
+    {
+        "frame": 357,
+        "slot_id": 235,
+        "event": "occupied_ended",
+        "duration_seconds": 10.6106
+    },
+    {
+        "frame": 363,
+        "slot_id": 186,
+        "event": "occupied_ended",
+        "duration_seconds": 8.7087
+    },
+    {
+        "frame": 372,
+        "slot_id": 139,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 372,
+        "slot_id": 211,
+        "event": "occupied_ended",
+        "duration_seconds": 11.1111
+    },
+    {
+        "frame": 372,
+        "slot_id": 289,
+        "event": "occupied_ended",
+        "duration_seconds": 9.509500000000001
+    },
+    {
+        "frame": 378,
+        "slot_id": 307,
+        "event": "occupied_ended",
+        "duration_seconds": 9.809800000000001
+    },
+    {
+        "frame": 381,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 384,
+        "slot_id": 46,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 384,
+        "slot_id": 116,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 384,
+        "slot_id": 147,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 384,
+        "slot_id": 235,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 384,
+        "slot_id": 295,
+        "event": "occupied_ended",
+        "duration_seconds": 4.6046000000000005
+    },
+    {
+        "frame": 387,
+        "slot_id": 191,
+        "event": "occupied_ended",
+        "duration_seconds": 7.7077
+    },
+    {
+        "frame": 387,
+        "slot_id": 264,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 387,
+        "slot_id": 307,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 393,
+        "slot_id": 16,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 393,
+        "slot_id": 211,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 396,
+        "slot_id": 162,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 396,
+        "slot_id": 249,
+        "event": "occupied_ended",
+        "duration_seconds": 4.1041
+    },
+    {
+        "frame": 396,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 396,
+        "slot_id": 289,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 399,
+        "slot_id": 139,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 402,
+        "slot_id": 290,
+        "event": "occupied_ended",
+        "duration_seconds": 7.5075
+    },
+    {
+        "frame": 405,
+        "slot_id": 188,
+        "event": "occupied_ended",
+        "duration_seconds": 12.212200000000001
+    },
+    {
+        "frame": 405,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 405,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 408,
+        "slot_id": 127,
+        "event": "occupied_ended",
+        "duration_seconds": 2.7027
+    },
+    {
+        "frame": 408,
+        "slot_id": 185,
+        "event": "occupied_ended",
+        "duration_seconds": 2.3023000000000002
+    },
+    {
+        "frame": 411,
+        "slot_id": 119,
+        "event": "occupied_ended",
+        "duration_seconds": 2.9029000000000003
+    },
+    {
+        "frame": 411,
+        "slot_id": 147,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 414,
+        "slot_id": 117,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 414,
+        "slot_id": 304,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 414,
+        "slot_id": 321,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 417,
+        "slot_id": 127,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 417,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 3.4034
+    },
+    {
+        "frame": 417,
+        "slot_id": 248,
+        "event": "occupied_ended",
+        "duration_seconds": 3.4034
+    },
+    {
+        "frame": 417,
+        "slot_id": 290,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 420,
+        "slot_id": 32,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 423,
+        "slot_id": 119,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 423,
+        "slot_id": 257,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 423,
+        "slot_id": 314,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 426,
+        "slot_id": 185,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 429,
+        "slot_id": 74,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 429,
+        "slot_id": 147,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 429,
+        "slot_id": 271,
+        "event": "occupied_ended",
+        "duration_seconds": 4.6046000000000005
+    },
+    {
+        "frame": 429,
+        "slot_id": 276,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 429,
+        "slot_id": 295,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 432,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 432,
+        "slot_id": 191,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 432,
+        "slot_id": 248,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 432,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 432,
+        "slot_id": 301,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 432,
+        "slot_id": 322,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 441,
+        "slot_id": 39,
+        "event": "occupied_ended",
+        "duration_seconds": 7.9079
+    },
+    {
+        "frame": 441,
+        "slot_id": 166,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 444,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 444,
+        "slot_id": 249,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 444,
+        "slot_id": 257,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 444,
+        "slot_id": 301,
+        "event": "occupied_ended",
+        "duration_seconds": 5.4054
+    },
+    {
+        "frame": 447,
+        "slot_id": 101,
+        "event": "occupied_ended",
+        "duration_seconds": 4.6046000000000005
+    },
+    {
+        "frame": 447,
+        "slot_id": 173,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 447,
+        "slot_id": 245,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 447,
+        "slot_id": 254,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 453,
+        "slot_id": 42,
+        "event": "occupied_ended",
+        "duration_seconds": 13.8138
+    },
+    {
+        "frame": 453,
+        "slot_id": 67,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 453,
+        "slot_id": 122,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 453,
+        "slot_id": 177,
+        "event": "occupied_ended",
+        "duration_seconds": 10.2102
+    },
+    {
+        "frame": 453,
+        "slot_id": 198,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 453,
+        "slot_id": 231,
+        "event": "occupied_ended",
+        "duration_seconds": 12.812800000000001
+    },
+    {
+        "frame": 453,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 453,
+        "slot_id": 271,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 453,
+        "slot_id": 301,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 456,
+        "slot_id": 16,
+        "event": "occupied_ended",
+        "duration_seconds": 2.1021
+    },
+    {
+        "frame": 456,
+        "slot_id": 215,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 459,
+        "slot_id": 48,
+        "event": "occupied_ended",
+        "duration_seconds": 14.014000000000001
+    },
+    {
+        "frame": 459,
+        "slot_id": 168,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 459,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 459,
+        "slot_id": 328,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 462,
+        "slot_id": 39,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 462,
+        "slot_id": 127,
+        "event": "occupied_ended",
+        "duration_seconds": 1.5015
+    },
+    {
+        "frame": 462,
+        "slot_id": 231,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 462,
+        "slot_id": 236,
+        "event": "occupied_ended",
+        "duration_seconds": 4.6046000000000005
+    },
+    {
+        "frame": 465,
+        "slot_id": 42,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 468,
+        "slot_id": 46,
+        "event": "occupied_ended",
+        "duration_seconds": 2.8028
+    },
+    {
+        "frame": 468,
+        "slot_id": 135,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 468,
+        "slot_id": 147,
+        "event": "occupied_ended",
+        "duration_seconds": 1.3013000000000001
+    },
+    {
+        "frame": 468,
+        "slot_id": 177,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 468,
+        "slot_id": 243,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 471,
+        "slot_id": 237,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 471,
+        "slot_id": 270,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 471,
+        "slot_id": 285,
+        "event": "occupied_ended",
+        "duration_seconds": 9.1091
+    },
+    {
+        "frame": 474,
+        "slot_id": 24,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 474,
+        "slot_id": 138,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 474,
+        "slot_id": 217,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 474,
+        "slot_id": 261,
+        "event": "occupied_ended",
+        "duration_seconds": 14.5145
+    },
+    {
+        "frame": 474,
+        "slot_id": 295,
+        "event": "occupied_ended",
+        "duration_seconds": 1.5015
+    },
+    {
+        "frame": 480,
+        "slot_id": 16,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 483,
+        "slot_id": 215,
+        "event": "occupied_ended",
+        "duration_seconds": 5.9059
+    },
+    {
+        "frame": 483,
+        "slot_id": 226,
+        "event": "occupied_ended",
+        "duration_seconds": 14.8148
+    },
+    {
+        "frame": 486,
+        "slot_id": 118,
+        "event": "occupied_ended",
+        "duration_seconds": 9.9099
+    },
+    {
+        "frame": 489,
+        "slot_id": 93,
+        "event": "occupied_ended",
+        "duration_seconds": 15.015
+    },
+    {
+        "frame": 492,
+        "slot_id": 130,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 492,
+        "slot_id": 215,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 495,
+        "slot_id": 139,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 498,
+        "slot_id": 118,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 498,
+        "slot_id": 226,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 498,
+        "slot_id": 285,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 501,
+        "slot_id": 313,
+        "event": "occupied_ended",
+        "duration_seconds": 10.9109
+    },
+    {
+        "frame": 501,
+        "slot_id": 320,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 507,
+        "slot_id": 30,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 507,
+        "slot_id": 217,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 510,
+        "slot_id": 16,
+        "event": "occupied_ended",
+        "duration_seconds": 1.0010000000000001
+    },
+    {
+        "frame": 510,
+        "slot_id": 139,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 510,
+        "slot_id": 186,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 510,
+        "slot_id": 261,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 510,
+        "slot_id": 295,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 513,
+        "slot_id": 30,
+        "event": "occupied_ended",
+        "duration_seconds": 5.2052000000000005
+    },
+    {
+        "frame": 516,
+        "slot_id": 147,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 516,
+        "slot_id": 320,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 519,
+        "slot_id": 110,
+        "event": "occupied_ended",
+        "duration_seconds": 14.014000000000001
+    },
+    {
+        "frame": 519,
+        "slot_id": 203,
+        "event": "occupied_ended",
+        "duration_seconds": 14.014000000000001
+    },
+    {
+        "frame": 519,
+        "slot_id": 235,
+        "event": "occupied_ended",
+        "duration_seconds": 4.5045
+    },
+    {
+        "frame": 519,
+        "slot_id": 273,
+        "event": "occupied_ended",
+        "duration_seconds": 16.016000000000002
+    },
+    {
+        "frame": 519,
+        "slot_id": 313,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 522,
+        "slot_id": 30,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 522,
+        "slot_id": 186,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 525,
+        "slot_id": 107,
+        "event": "occupied_ended",
+        "duration_seconds": 16.2162
+    },
+    {
+        "frame": 528,
+        "slot_id": 273,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 534,
+        "slot_id": 46,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 534,
+        "slot_id": 107,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 534,
+        "slot_id": 110,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 534,
+        "slot_id": 116,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 534,
+        "slot_id": 235,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 534,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 2.5025
+    },
+    {
+        "frame": 537,
+        "slot_id": 273,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 537,
+        "slot_id": 307,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 543,
+        "slot_id": 211,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 546,
+        "slot_id": 162,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 546,
+        "slot_id": 289,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 549,
+        "slot_id": 270,
+        "event": "occupied_ended",
+        "duration_seconds": 7.6076
+    },
+    {
+        "frame": 555,
+        "slot_id": 46,
+        "event": "occupied_ended",
+        "duration_seconds": 0.7007
+    },
+    {
+        "frame": 558,
+        "slot_id": 203,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 558,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 558,
+        "slot_id": 270,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 558,
+        "slot_id": 273,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 561,
+        "slot_id": 147,
+        "event": "occupied_ended",
+        "duration_seconds": 1.5015
+    },
+    {
+        "frame": 561,
+        "slot_id": 276,
+        "event": "occupied_ended",
+        "duration_seconds": 9.4094
+    },
+    {
+        "frame": 567,
+        "slot_id": 46,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 567,
+        "slot_id": 93,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 567,
+        "slot_id": 290,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 570,
+        "slot_id": 127,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 570,
+        "slot_id": 236,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 570,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 570,
+        "slot_id": 276,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 573,
+        "slot_id": 119,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 573,
+        "slot_id": 243,
+        "event": "occupied_ended",
+        "duration_seconds": 3.5035000000000003
+    },
+    {
+        "frame": 573,
+        "slot_id": 314,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 576,
+        "slot_id": 147,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 576,
+        "slot_id": 185,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 579,
+        "slot_id": 74,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 579,
+        "slot_id": 328,
+        "event": "occupied_ended",
+        "duration_seconds": 4.0040000000000004
+    },
+    {
+        "frame": 582,
+        "slot_id": 116,
+        "event": "occupied_ended",
+        "duration_seconds": 6.6066
+    },
+    {
+        "frame": 582,
+        "slot_id": 191,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 582,
+        "slot_id": 198,
+        "event": "occupied_ended",
+        "duration_seconds": 4.3043000000000005
+    },
+    {
+        "frame": 582,
+        "slot_id": 215,
+        "event": "occupied_ended",
+        "duration_seconds": 3.003
+    },
+    {
+        "frame": 582,
+        "slot_id": 248,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 582,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 582,
+        "slot_id": 322,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 585,
+        "slot_id": 48,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 585,
+        "slot_id": 249,
+        "event": "occupied_ended",
+        "duration_seconds": 4.7047
+    },
+    {
+        "frame": 585,
+        "slot_id": 276,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 585,
+        "slot_id": 332,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 591,
+        "slot_id": 102,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 591,
+        "slot_id": 139,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 591,
+        "slot_id": 246,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 591,
+        "slot_id": 295,
+        "event": "occupied_ended",
+        "duration_seconds": 2.7027
+    },
+    {
+        "frame": 594,
+        "slot_id": 166,
+        "event": "occupied_ended",
+        "duration_seconds": 10.110100000000001
+    },
+    {
+        "frame": 594,
+        "slot_id": 168,
+        "event": "occupied_ended",
+        "duration_seconds": 4.5045
+    },
+    {
+        "frame": 594,
+        "slot_id": 249,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 597,
+        "slot_id": 19,
+        "event": "occupied_ended",
+        "duration_seconds": 18.6186
+    },
+    {
+        "frame": 597,
+        "slot_id": 162,
+        "event": "occupied_ended",
+        "duration_seconds": 6.7067000000000005
+    },
+    {
+        "frame": 597,
+        "slot_id": 173,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 597,
+        "slot_id": 245,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 597,
+        "slot_id": 254,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 597,
+        "slot_id": 276,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 600,
+        "slot_id": 332,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 603,
+        "slot_id": 67,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 603,
+        "slot_id": 122,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 603,
+        "slot_id": 166,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 603,
+        "slot_id": 245,
+        "event": "occupied_ended",
+        "duration_seconds": 5.2052000000000005
+    },
+    {
+        "frame": 603,
+        "slot_id": 257,
+        "event": "occupied_ended",
+        "duration_seconds": 5.005
+    },
+    {
+        "frame": 603,
+        "slot_id": 271,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 603,
+        "slot_id": 301,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 606,
+        "slot_id": 207,
+        "event": "occupied_ended",
+        "duration_seconds": 18.9189
+    },
+    {
+        "frame": 609,
+        "slot_id": 191,
+        "event": "occupied_ended",
+        "duration_seconds": 5.9059
+    },
+    {
+        "frame": 609,
+        "slot_id": 217,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 612,
+        "slot_id": 39,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 612,
+        "slot_id": 231,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 615,
+        "slot_id": 42,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 615,
+        "slot_id": 92,
+        "event": "occupied_ended",
+        "duration_seconds": 19.2192
+    },
+    {
+        "frame": 615,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 615,
+        "slot_id": 285,
+        "event": "occupied_ended",
+        "duration_seconds": 3.9039
+    },
+    {
+        "frame": 615,
+        "slot_id": 297,
+        "event": "occupied_ended",
+        "duration_seconds": 19.2192
+    },
+    {
+        "frame": 618,
+        "slot_id": 116,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 618,
+        "slot_id": 168,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 618,
+        "slot_id": 177,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 618,
+        "slot_id": 188,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 618,
+        "slot_id": 215,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 621,
+        "slot_id": 19,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 621,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 621,
+        "slot_id": 162,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 621,
+        "slot_id": 249,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 621,
+        "slot_id": 332,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 624,
+        "slot_id": 67,
+        "event": "occupied_ended",
+        "duration_seconds": 5.7057
+    },
+    {
+        "frame": 624,
+        "slot_id": 102,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 624,
+        "slot_id": 246,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 624,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 624,
+        "slot_id": 271,
+        "event": "occupied_ended",
+        "duration_seconds": 5.7057
+    },
+    {
+        "frame": 627,
+        "slot_id": 101,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 627,
+        "slot_id": 168,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 627,
+        "slot_id": 173,
+        "event": "occupied_ended",
+        "duration_seconds": 6.006
+    },
+    {
+        "frame": 627,
+        "slot_id": 254,
+        "event": "occupied_ended",
+        "duration_seconds": 6.006
+    },
+    {
+        "frame": 630,
+        "slot_id": 42,
+        "event": "occupied_ended",
+        "duration_seconds": 5.5055000000000005
+    },
+    {
+        "frame": 630,
+        "slot_id": 122,
+        "event": "occupied_ended",
+        "duration_seconds": 5.9059
+    },
+    {
+        "frame": 633,
+        "slot_id": 237,
+        "event": "occupied_ended",
+        "duration_seconds": 10.410400000000001
+    },
+    {
+        "frame": 633,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 633,
+        "slot_id": 270,
+        "event": "occupied_ended",
+        "duration_seconds": 2.5025
+    },
+    {
+        "frame": 633,
+        "slot_id": 332,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 639,
+        "slot_id": 16,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 639,
+        "slot_id": 92,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 639,
+        "slot_id": 102,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 639,
+        "slot_id": 246,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 639,
+        "slot_id": 247,
+        "event": "occupied_ended",
+        "duration_seconds": 20.02
+    },
+    {
+        "frame": 639,
+        "slot_id": 273,
+        "event": "occupied_ended",
+        "duration_seconds": 2.7027
+    },
+    {
+        "frame": 639,
+        "slot_id": 285,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 639,
+        "slot_id": 314,
+        "event": "occupied_ended",
+        "duration_seconds": 7.2072
+    },
+    {
+        "frame": 642,
+        "slot_id": 74,
+        "event": "occupied_ended",
+        "duration_seconds": 7.1071
+    },
+    {
+        "frame": 642,
+        "slot_id": 191,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 642,
+        "slot_id": 282,
+        "event": "occupied_ended",
+        "duration_seconds": 17.6176
+    },
+    {
+        "frame": 642,
+        "slot_id": 297,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 642,
+        "slot_id": 322,
+        "event": "occupied_ended",
+        "duration_seconds": 7.007000000000001
+    },
+    {
+        "frame": 645,
+        "slot_id": 49,
+        "event": "occupied_ended",
+        "duration_seconds": 20.220200000000002
+    },
+    {
+        "frame": 645,
+        "slot_id": 217,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 648,
+        "slot_id": 118,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 648,
+        "slot_id": 226,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 651,
+        "slot_id": 128,
+        "event": "occupied_ended",
+        "duration_seconds": 15.9159
+    },
+    {
+        "frame": 651,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 1.0010000000000001
+    },
+    {
+        "frame": 651,
+        "slot_id": 248,
+        "event": "occupied_ended",
+        "duration_seconds": 7.307300000000001
+    },
+    {
+        "frame": 654,
+        "slot_id": 49,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 654,
+        "slot_id": 247,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 654,
+        "slot_id": 295,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 657,
+        "slot_id": 102,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 657,
+        "slot_id": 186,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 657,
+        "slot_id": 246,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 657,
+        "slot_id": 282,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 660,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 660,
+        "slot_id": 248,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 660,
+        "slot_id": 261,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 660,
+        "slot_id": 283,
+        "event": "occupied_ended",
+        "duration_seconds": 17.217200000000002
+    },
+    {
+        "frame": 663,
+        "slot_id": 185,
+        "event": "occupied_ended",
+        "duration_seconds": 7.9079
+    },
+    {
+        "frame": 663,
+        "slot_id": 240,
+        "event": "occupied_ended",
+        "duration_seconds": 16.316300000000002
+    },
+    {
+        "frame": 666,
+        "slot_id": 271,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 669,
+        "slot_id": 313,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 672,
+        "slot_id": 30,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 672,
+        "slot_id": 127,
+        "event": "occupied_ended",
+        "duration_seconds": 3.4034
+    },
+    {
+        "frame": 675,
+        "slot_id": 264,
+        "event": "occupied_ended",
+        "duration_seconds": 14.614600000000001
+    },
+    {
+        "frame": 675,
+        "slot_id": 285,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 684,
+        "slot_id": 107,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 684,
+        "slot_id": 110,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 684,
+        "slot_id": 235,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 687,
+        "slot_id": 24,
+        "event": "occupied_ended",
+        "duration_seconds": 12.1121
+    },
+    {
+        "frame": 687,
+        "slot_id": 119,
+        "event": "occupied_ended",
+        "duration_seconds": 8.8088
+    },
+    {
+        "frame": 687,
+        "slot_id": 135,
+        "event": "occupied_ended",
+        "duration_seconds": 12.3123
+    },
+    {
+        "frame": 687,
+        "slot_id": 236,
+        "event": "occupied_ended",
+        "duration_seconds": 3.9039
+    },
+    {
+        "frame": 696,
+        "slot_id": 24,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 696,
+        "slot_id": 119,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 696,
+        "slot_id": 127,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 696,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 696,
+        "slot_id": 191,
+        "event": "occupied_ended",
+        "duration_seconds": 1.8018
+    },
+    {
+        "frame": 696,
+        "slot_id": 248,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 699,
+        "slot_id": 102,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 699,
+        "slot_id": 185,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 699,
+        "slot_id": 217,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 699,
+        "slot_id": 246,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 699,
+        "slot_id": 271,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 699,
+        "slot_id": 322,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 702,
+        "slot_id": 135,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 702,
+        "slot_id": 264,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 702,
+        "slot_id": 290,
+        "event": "occupied_ended",
+        "duration_seconds": 9.509500000000001
+    },
+    {
+        "frame": 705,
+        "slot_id": 74,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 705,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 705,
+        "slot_id": 285,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 705,
+        "slot_id": 295,
+        "event": "occupied_ended",
+        "duration_seconds": 1.7017
+    },
+    {
+        "frame": 708,
+        "slot_id": 16,
+        "event": "occupied_ended",
+        "duration_seconds": 2.3023000000000002
+    },
+    {
+        "frame": 708,
+        "slot_id": 203,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 708,
+        "slot_id": 294,
+        "event": "occupied_ended",
+        "duration_seconds": 21.5215
+    },
+    {
+        "frame": 717,
+        "slot_id": 46,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 717,
+        "slot_id": 87,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 717,
+        "slot_id": 93,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 720,
+        "slot_id": 74,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 723,
+        "slot_id": 16,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 723,
+        "slot_id": 185,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 723,
+        "slot_id": 226,
+        "event": "occupied_ended",
+        "duration_seconds": 7.5075
+    },
+    {
+        "frame": 723,
+        "slot_id": 236,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 723,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 0.6006
+    },
+    {
+        "frame": 723,
+        "slot_id": 322,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 726,
+        "slot_id": 147,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 726,
+        "slot_id": 186,
+        "event": "occupied_ended",
+        "duration_seconds": 2.3023000000000002
+    },
+    {
+        "frame": 726,
+        "slot_id": 282,
+        "event": "occupied_ended",
+        "duration_seconds": 2.3023000000000002
+    },
+    {
+        "frame": 726,
+        "slot_id": 294,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 729,
+        "slot_id": 87,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 732,
+        "slot_id": 217,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 735,
+        "slot_id": 48,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 735,
+        "slot_id": 282,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 738,
+        "slot_id": 147,
+        "event": "occupied_ended",
+        "duration_seconds": 5.4054
+    },
+    {
+        "frame": 738,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 741,
+        "slot_id": 139,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 747,
+        "slot_id": 162,
+        "event": "occupied_ended",
+        "duration_seconds": 4.2042
+    },
+    {
+        "frame": 747,
+        "slot_id": 191,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 747,
+        "slot_id": 276,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 750,
+        "slot_id": 165,
+        "event": "occupied_ended",
+        "duration_seconds": 23.7237
+    },
+    {
+        "frame": 750,
+        "slot_id": 185,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 750,
+        "slot_id": 290,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 753,
+        "slot_id": 166,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 756,
+        "slot_id": 237,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 756,
+        "slot_id": 246,
+        "event": "occupied_ended",
+        "duration_seconds": 1.9019
+    },
+    {
+        "frame": 756,
+        "slot_id": 247,
+        "event": "occupied_ended",
+        "duration_seconds": 3.4034
+    },
+    {
+        "frame": 756,
+        "slot_id": 270,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 765,
+        "slot_id": 162,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 765,
+        "slot_id": 247,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 768,
+        "slot_id": 9,
+        "event": "occupied_ended",
+        "duration_seconds": 24.3243
+    },
+    {
+        "frame": 768,
+        "slot_id": 102,
+        "event": "occupied_ended",
+        "duration_seconds": 2.3023000000000002
+    },
+    {
+        "frame": 768,
+        "slot_id": 116,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 768,
+        "slot_id": 188,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 768,
+        "slot_id": 215,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 768,
+        "slot_id": 332,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 771,
+        "slot_id": 19,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 771,
+        "slot_id": 226,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 774,
+        "slot_id": 191,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 774,
+        "slot_id": 271,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 774,
+        "slot_id": 293,
+        "event": "occupied_ended",
+        "duration_seconds": 24.5245
+    },
+    {
+        "frame": 777,
+        "slot_id": 21,
+        "event": "occupied_ended",
+        "duration_seconds": 24.6246
+    },
+    {
+        "frame": 777,
+        "slot_id": 101,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 777,
+        "slot_id": 162,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 780,
+        "slot_id": 332,
+        "event": "occupied_ended",
+        "duration_seconds": 0.40040000000000003
+    },
+    {
+        "frame": 789,
+        "slot_id": 92,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 789,
+        "slot_id": 188,
+        "event": "occupied_ended",
+        "duration_seconds": 5.7057
+    },
+    {
+        "frame": 789,
+        "slot_id": 228,
+        "event": "occupied_ended",
+        "duration_seconds": 22.5225
+    },
+    {
+        "frame": 792,
+        "slot_id": 212,
+        "event": "occupied_ended",
+        "duration_seconds": 22.2222
+    },
+    {
+        "frame": 792,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 792,
+        "slot_id": 297,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 795,
+        "slot_id": 165,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 795,
+        "slot_id": 226,
+        "event": "occupied_ended",
+        "duration_seconds": 0.8008000000000001
+    },
+    {
+        "frame": 795,
+        "slot_id": 283,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 798,
+        "slot_id": 217,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 798,
+        "slot_id": 267,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 801,
+        "slot_id": 212,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 801,
+        "slot_id": 257,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 804,
+        "slot_id": 49,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 810,
+        "slot_id": 102,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 810,
+        "slot_id": 226,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 813,
+        "slot_id": 217,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 816,
+        "slot_id": 228,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 816,
+        "slot_id": 246,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 819,
+        "slot_id": 9,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 819,
+        "slot_id": 185,
+        "event": "occupied_ended",
+        "duration_seconds": 2.3023000000000002
+    },
+    {
+        "frame": 819,
+        "slot_id": 188,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 819,
+        "slot_id": 237,
+        "event": "occupied_ended",
+        "duration_seconds": 2.1021
+    },
+    {
+        "frame": 819,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 2.7027
+    },
+    {
+        "frame": 819,
+        "slot_id": 270,
+        "event": "occupied_ended",
+        "duration_seconds": 2.1021
+    },
+    {
+        "frame": 825,
+        "slot_id": 191,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 825,
+        "slot_id": 226,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 825,
+        "slot_id": 267,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 825,
+        "slot_id": 293,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 828,
+        "slot_id": 147,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 828,
+        "slot_id": 162,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 828,
+        "slot_id": 271,
+        "event": "occupied_ended",
+        "duration_seconds": 1.8018
+    },
+    {
+        "frame": 834,
+        "slot_id": 21,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 834,
+        "slot_id": 74,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 834,
+        "slot_id": 128,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 834,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 834,
+        "slot_id": 191,
+        "event": "occupied_ended",
+        "duration_seconds": 0.3003
+    },
+    {
+        "frame": 834,
+        "slot_id": 248,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 834,
+        "slot_id": 283,
+        "event": "occupied_ended",
+        "duration_seconds": 1.3013000000000001
+    },
+    {
+        "frame": 837,
+        "slot_id": 138,
+        "event": "occupied_ended",
+        "duration_seconds": 17.1171
+    },
+    {
+        "frame": 837,
+        "slot_id": 185,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 837,
+        "slot_id": 226,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 840,
+        "slot_id": 290,
+        "event": "occupied_ended",
+        "duration_seconds": 3.003
+    },
+    {
+        "frame": 846,
+        "slot_id": 24,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 846,
+        "slot_id": 119,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 846,
+        "slot_id": 127,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 849,
+        "slot_id": 240,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 849,
+        "slot_id": 268,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 849,
+        "slot_id": 290,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 852,
+        "slot_id": 102,
+        "event": "occupied_ended",
+        "duration_seconds": 1.4014
+    },
+    {
+        "frame": 852,
+        "slot_id": 135,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 852,
+        "slot_id": 139,
+        "event": "occupied_ended",
+        "duration_seconds": 8.7087
+    },
+    {
+        "frame": 852,
+        "slot_id": 180,
+        "event": "occupied_ended",
+        "duration_seconds": 23.6236
+    },
+    {
+        "frame": 852,
+        "slot_id": 236,
+        "event": "occupied_ended",
+        "duration_seconds": 4.3043000000000005
+    },
+    {
+        "frame": 852,
+        "slot_id": 246,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 852,
+        "slot_id": 264,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 852,
+        "slot_id": 293,
+        "event": "occupied_ended",
+        "duration_seconds": 0.9009
+    },
+    {
+        "frame": 855,
+        "slot_id": 285,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 855,
+        "slot_id": 314,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 858,
+        "slot_id": 24,
+        "event": "occupied_ended",
+        "duration_seconds": 5.4054
+    },
+    {
+        "frame": 858,
+        "slot_id": 119,
+        "event": "occupied_ended",
+        "duration_seconds": 5.4054
+    },
+    {
+        "frame": 858,
+        "slot_id": 122,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 858,
+        "slot_id": 127,
+        "event": "occupied_ended",
+        "duration_seconds": 5.4054
+    },
+    {
+        "frame": 858,
+        "slot_id": 237,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 858,
+        "slot_id": 270,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 861,
+        "slot_id": 191,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 861,
+        "slot_id": 322,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 864,
+        "slot_id": 102,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 864,
+        "slot_id": 138,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 864,
+        "slot_id": 173,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 864,
+        "slot_id": 246,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 864,
+        "slot_id": 254,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 864,
+        "slot_id": 268,
+        "event": "occupied_ended",
+        "duration_seconds": 0.5005000000000001
+    },
+    {
+        "frame": 864,
+        "slot_id": 271,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 864,
+        "slot_id": 283,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 867,
+        "slot_id": 142,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 867,
+        "slot_id": 248,
+        "event": "occupied_ended",
+        "duration_seconds": 1.1011
+    },
+    {
+        "frame": 870,
+        "slot_id": 24,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 870,
+        "slot_id": 101,
+        "event": "occupied_ended",
+        "duration_seconds": 8.1081
+    },
+    {
+        "frame": 870,
+        "slot_id": 119,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 870,
+        "slot_id": 127,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 870,
+        "slot_id": 139,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 873,
+        "slot_id": 16,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 876,
+        "slot_id": 67,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 876,
+        "slot_id": 294,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 879,
+        "slot_id": 180,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 882,
+        "slot_id": 236,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 885,
+        "slot_id": 168,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 885,
+        "slot_id": 282,
+        "event": "parking_limit_exceeded",
+        "elapsed_seconds": 5.005
+    },
+    {
+        "frame": 888,
+        "slot_id": 39,
+        "event": "occupied_ended",
+        "duration_seconds": 14.2142
+    },
+    {
+        "frame": 888,
+        "slot_id": 142,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 888,
+        "slot_id": 248,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 888,
+        "slot_id": 295,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 894,
+        "slot_id": 122,
+        "event": "occupied_ended",
+        "duration_seconds": 1.2012
+    },
+    {
+        "frame": 894,
+        "slot_id": 293,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 894,
+        "slot_id": 301,
+        "event": "occupied_ended",
+        "duration_seconds": 14.7147
+    },
+    {
+        "frame": 897,
+        "slot_id": 249,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 900,
+        "slot_id": 257,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 903,
+        "slot_id": 39,
+        "event": "occupied_started"
+    },
+    {
+        "frame": 909,
+        "slot_id": 32,
+        "event": "occupied_ended",
+        "duration_seconds": 21.3213
+    },
+    {
+        "frame": 909,
+        "slot_id": 92,
+        "event": "occupied_ended",
+        "duration_seconds": 9.009
+    },
+    {
+        "frame": 909,
+        "slot_id": 118,
+        "event": "occupied_ended",
+        "duration_seconds": 13.713700000000001
+    },
+    {
+        "frame": 909,
+        "slot_id": 180,
+        "event": "occupied_ended",
+        "duration_seconds": 1.0010000000000001
+    },
+    {
+        "frame": 909,
+        "slot_id": 191,
+        "event": "occupied_ended",
+        "duration_seconds": 1.6016000000000001
+    },
+    {
+        "frame": 909,
+        "slot_id": 297,
+        "event": "occupied_ended",
+        "duration_seconds": 8.908900000000001
+    }
+]
