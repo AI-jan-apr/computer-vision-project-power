@@ -4,28 +4,32 @@ import numpy as np
 import os
 
 
-# configuration and thresholds 
-# grayscale detection thresholds:
-# DIFF_THRESHHOLD - min pixel difference to count as changed pixels 
-# OCCUPANCY_RATIO_THRESHOLD - minimum % of changed pixels inside the ROI to classify slots as occupied 
-
-
+# =========================================================
+# CONFIGURATION
+# Define file paths and grayscale detection thresholds
+# =========================================================
 
 BASE_DIR = os.getcwd()
 
-EMPTY_IMAGE = os.path.join(BASE_DIR, "empty_parking.jpg")
-FRAMES_FOLDER = os.path.join(BASE_DIR, "src", "frames_test")
-SLOTS_FILE = os.path.join(BASE_DIR, "slots.json")
+# File paths
+EMPTY_IMAGE = os.path.join(BASE_DIR, "empty_parking.jpg")          # Reference empty parking image
+FRAMES_FOLDER = os.path.join(BASE_DIR, "src", "frames_test")       # Input test images
+SLOTS_FILE = os.path.join(BASE_DIR, "slots.json")                  # Parking slot coordinates
 
-SHOW_IMAGES = True
+SHOW_IMAGES = True  # Toggle visualization
 
-# grayscale occupancy settings
-DIFF_THRESHOLD = 40
-OCCUPANCY_RATIO_THRESHOLD = 0.15
+# -----------------------------
+# Grayscale Detection Thresholds
+# -----------------------------
+DIFF_THRESHOLD = 40                  # Minimum pixel difference to count as change
+OCCUPANCY_RATIO_THRESHOLD = 0.15     # % of changed pixels to classify as occupied
 
 
+# =========================================================
 # LOAD DATA
+# =========================================================
 
+# Load empty parking reference image
 empty_img = cv2.imread(EMPTY_IMAGE)
 print("EMPTY_IMAGE PATH:", EMPTY_IMAGE)
 print("empty_img loaded:", empty_img is not None)
@@ -33,13 +37,15 @@ print("empty_img loaded:", empty_img is not None)
 if empty_img is None:
     raise FileNotFoundError(f"Could not load empty image: {EMPTY_IMAGE}")
 
+# Load slot definitions
 with open(SLOTS_FILE) as f:
     slots = json.load(f)
 
 
-# grounf truth to evaluate model performance and accuracy 
-# this is manually labeled correct answers that the model compares with the final decision it makes to evaluate 
-
+# =========================================================
+# GROUND TRUTH (EVALUATION)
+# Manually labeled slot states used to evaluate performance
+# =========================================================
 
 ground_truth = {
     "img1.jpg": {"60": "occupied", "36": "occupied", "11": "empty", "40": "occupied", "78": "occupied"},
@@ -65,21 +71,34 @@ ground_truth = {
     "parkingwithcar.jpg": {"60": "occupied", "2": "empty", "3": "empty", "4": "empty", "5": "empty"},
 }
 
+# Evaluation counters
 use_ground_truth = len(ground_truth) > 0
 correct = 0
 total = 0
 
-# FUNCTIONS
+
+# =========================================================
+# UTILITY FUNCTIONS
+# =========================================================
 
 def extract_slot_with_mask(image, points):
+    """
+    Extract a parking slot region using polygon masking.
+
+    Returns:
+        image_crop: cropped ROI image
+        mask_crop: binary mask of the ROI
+    """
     if image is None:
         raise ValueError("Image is None — check loading paths")
 
     pts = np.array(points, np.int32)
 
+    # Create binary mask for the slot
     mask = np.zeros(image.shape[:2], dtype=np.uint8)
     cv2.fillPoly(mask, [pts], 255)
 
+    # Bounding box around polygon
     x, y, w, h = cv2.boundingRect(pts)
 
     image_crop = image[y:y+h, x:x+w]
@@ -88,6 +107,10 @@ def extract_slot_with_mask(image, points):
     return image_crop, mask_crop
 
 
+# =========================================================
+# GRAYSCALE OCCUPANCY CLASSIFIER
+# =========================================================
+
 def grayscale_classifier_masked(
     empty_crop,
     current_crop,
@@ -95,29 +118,45 @@ def grayscale_classifier_masked(
     diff_threshold=40,
     occupancy_ratio_threshold=0.15
 ):
+    """
+    Compare empty vs current slot using grayscale difference.
+
+    Returns:
+        occupied (bool)
+        occupancy_ratio (float)
+        mean_difference (float)
+    """
+    # Convert to grayscale
     empty_gray = cv2.cvtColor(empty_crop, cv2.COLOR_BGR2GRAY)
     current_gray = cv2.cvtColor(current_crop, cv2.COLOR_BGR2GRAY)
 
+    # Resize current image to match reference
     current_gray = cv2.resize(
         current_gray,
         (empty_gray.shape[1], empty_gray.shape[0])
     )
+
+    # Resize mask accordingly
     mask_crop = cv2.resize(
         mask_crop,
         (empty_gray.shape[1], empty_gray.shape[0]),
         interpolation=cv2.INTER_NEAREST
     )
 
+    # Apply Gaussian blur to reduce noise
     empty_gray = cv2.GaussianBlur(empty_gray, (5, 5), 0)
     current_gray = cv2.GaussianBlur(current_gray, (5, 5), 0)
 
+    # Compute difference
     diff = cv2.absdiff(empty_gray, current_gray)
 
+    # Focus only on ROI pixels
     roi_diff = diff[mask_crop > 0]
 
     if len(roi_diff) == 0:
         return False, 0.0, 0.0
 
+    # Calculate occupancy metrics
     changed_pixels = np.sum(roi_diff > diff_threshold)
     total_pixels = len(roi_diff)
 
@@ -127,23 +166,14 @@ def grayscale_classifier_masked(
 
     return occupied, occupancy_ratio, mean_diff
 
-# MAIN LOOP
-# Define which image files are valid.
-# Here we manually choose one image: parkingwithcar.jpg
-# The pipeline:
-# - loads the image
-# - loops through all slot ROIs
-# - extracts empty and current slot crops
-# - runs grayscale occupancy classification
-# - prints the predicted result
-# - compares with ground truth when available
-# - draws colored polygons:
-#  green = empty
-#  red = occupied
 
+# =========================================================
+# MAIN PIPELINE
+# =========================================================
 
+# Select images to process (can be expanded later)
 valid_exts = (".jpg", ".jpeg", ".png", ".bmp")
-images = ["parkingwithcar.jpg"]  
+images = ["parkingwithcar.jpg"]
 
 print("Found images:", len(images))
 
@@ -159,13 +189,16 @@ for img_name in images:
 
     print(f"\nProcessing: {img_name}")
 
+    # Process each parking slot
     for slot in slots:
         slot_id = str(slot["slot_id"])
         pts = slot["points"]
 
+        # Extract ROI for empty and current frames
         empty_crop, mask_crop = extract_slot_with_mask(empty_img, pts)
         current_crop, _ = extract_slot_with_mask(frame, pts)
 
+        # Run grayscale classification
         occupied, occupancy_ratio, mean_diff = grayscale_classifier_masked(
             empty_crop,
             current_crop,
@@ -181,9 +214,9 @@ for img_name in images:
             f"ratio={occupancy_ratio:.3f} | mean_diff={mean_diff:.2f}"
         )
 
-       
-        # EVALUATION
-       
+        # -----------------------------
+        # EVALUATION (against ground truth)
+        # -----------------------------
         if use_ground_truth and img_name in ground_truth:
             if slot_id in ground_truth[img_name]:
                 actual = ground_truth[img_name][slot_id]
@@ -198,9 +231,9 @@ for img_name in images:
 
                 total += 1
 
-      
+        # -----------------------------
         # VISUALIZATION
-       
+        # -----------------------------
         if SHOW_IMAGES:
             color = (0, 255, 0) if prediction == "empty" else (0, 0, 255)
 
@@ -218,6 +251,7 @@ for img_name in images:
                 1
             )
 
+    # Display result
     if SHOW_IMAGES:
         cv2.imshow("Result", frame)
         key = cv2.waitKey(0)
@@ -228,8 +262,9 @@ for img_name in images:
 cv2.destroyAllWindows()
 
 
+# =========================================================
 # FINAL ACCURACY
-
+# =========================================================
 
 if use_ground_truth and total > 0:
     accuracy = correct / total

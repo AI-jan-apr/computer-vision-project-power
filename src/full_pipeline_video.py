@@ -9,12 +9,15 @@ from ultralytics import YOLO
 
 BASE_DIR = os.getcwd()
 
-VIDEO_PATH = os.path.join(BASE_DIR, "src", "testvideo.mp4")
-OUTPUT_VIDEO_PATH = os.path.join(BASE_DIR, "parking_output_bigparking.mp4")
-EVENTS_JSON_PATH = os.path.join(BASE_DIR, "parking_events.json")
+VIDEO_PATH = os.path.join(BASE_DIR, "..", "testvideo.mp4")
+OUTPUT_VIDEO_PATH = os.path.join(BASE_DIR, "..", "parking_output_bigparking.mp4")
+EVENTS_JSON_PATH = os.path.join(BASE_DIR, "..", "parking_events.json")
 
-SLOT_MODEL_PATH = os.path.join(BASE_DIR, "src", "parking_slots_detector.pt")
-CAR_MODEL_PATH = os.path.join(BASE_DIR, "src", "best-2.pt")
+SLOT_MODEL_PATH = os.path.join(BASE_DIR, "..", "src", "parking_slots_detector.pt")
+CAR_MODEL_PATH = os.path.join(BASE_DIR, "..", "src", "best-2.pt")
+
+STATUS_JSON_PATH = os.path.join(BASE_DIR, "..", "parking_status.json")
+LATEST_FRAME_PATH = os.path.join(BASE_DIR, "..", "latest_frame.jpg")
 
 # -------- Initialization --------
 INIT_FRAMES_COUNT = 20
@@ -526,6 +529,55 @@ def main():
             2
         )
 
+        # =================================
+        # BUILD CURRENT STATUS SNAPSHOT
+        # =================================
+        slots_snapshot = []
+        active_alerts = 0
+        wrong_parking_count = len(wrong_events)
+
+        for slot in frozen_slots:
+            slot_id = slot["slot_id"]
+            state = slot_runtime[slot_id]
+
+            elapsed_seconds = 0.0
+            if state["stable_state"] == "occupied" and state["occupied_since_frame"] is not None:
+                elapsed_seconds = (frame_idx - state["occupied_since_frame"]) / fps
+
+            if state["alerted_limit"]:
+                active_alerts += 1
+
+            slots_snapshot.append({
+                "slot_id": slot_id,
+                "status": state["stable_state"],
+                "elapsed_seconds": round(elapsed_seconds, 1),
+                "limit_exceeded": state["alerted_limit"],
+                "wrong_parking": slot_id in wrong_slot_ids
+            })
+
+        total_slots = len(frozen_slots)
+        occupied_slots = sum(1 for s in slots_snapshot if s["status"] == "occupied")
+        empty_slots = sum(1 for s in slots_snapshot if s["status"] == "empty")
+        occupancy_rate = round((occupied_slots / total_slots) * 100, 1) if total_slots > 0 else 0
+
+        status_snapshot = {
+            "frame": frame_idx,
+            "summary": {
+                "total_slots": total_slots,
+                "occupied_slots": occupied_slots,
+                "empty_slots": empty_slots,
+                "occupancy_rate": occupancy_rate,
+                "active_alerts": active_alerts,
+                "wrong_parking_count": wrong_parking_count
+            },
+            "slots": slots_snapshot
+        }
+
+        with open(STATUS_JSON_PATH, "w") as f:
+            json.dump(status_snapshot, f, indent=4)
+
+        cv2.imwrite(LATEST_FRAME_PATH, frame)
+        
         # =================================
         # SAVE / SHOW
         # =================================
