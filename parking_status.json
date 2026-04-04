@@ -1,0 +1,2373 @@
+{
+    "frame": 2197,
+    "summary": {
+        "total_slots": 337,
+        "occupied_slots": 282,
+        "empty_slots": 55,
+        "occupancy_rate": 83.68,
+        "active_alerts": 19,
+        "wrong_parking_count": 19,
+        "total_cars_detected": 300
+    },
+    "slots": [
+        {
+            "slot_id": 1,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.9182532429695129,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 2,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.920316755771637,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 3,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.9063152074813843,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 4,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.9053953289985657,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 5,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.9034315943717957,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 6,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8760221004486084,
+            "occupied_since_frame": 1992
+        },
+        {
+            "slot_id": 7,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8841435313224792,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 8,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8995873332023621,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 9,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8929594159126282,
+            "occupied_since_frame": 1731
+        },
+        {
+            "slot_id": 10,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.898881733417511,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 11,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8523254990577698,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 12,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8647270202636719,
+            "occupied_since_frame": 2115
+        },
+        {
+            "slot_id": 13,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8895197510719299,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 14,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.91547030210495,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 15,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8801469802856445,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 16,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.8619048595428467,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 17,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8592590689659119,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 18,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8579241037368774,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 19,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8574258685112,
+            "occupied_since_frame": 1527
+        },
+        {
+            "slot_id": 20,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8375365138053894,
+            "occupied_since_frame": 1944
+        },
+        {
+            "slot_id": 21,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8570573329925537,
+            "occupied_since_frame": 1743
+        },
+        {
+            "slot_id": 22,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8496392965316772,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 23,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.8457534313201904,
+            "occupied_since_frame": 1980
+        },
+        {
+            "slot_id": 24,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8287575244903564,
+            "occupied_since_frame": 2139
+        },
+        {
+            "slot_id": 25,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8956049084663391,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 26,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8586912155151367,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 27,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8917670845985413,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 28,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8691133260726929,
+            "occupied_since_frame": 201
+        },
+        {
+            "slot_id": 29,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8357191681861877,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 30,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8600123524665833,
+            "occupied_since_frame": 522
+        },
+        {
+            "slot_id": 31,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8246321678161621,
+            "occupied_since_frame": 1032
+        },
+        {
+            "slot_id": 32,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8402720093727112,
+            "occupied_since_frame": 2088
+        },
+        {
+            "slot_id": 33,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8304789662361145,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 34,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8411176204681396,
+            "occupied_since_frame": 1947
+        },
+        {
+            "slot_id": 35,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8799043893814087,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 36,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8890109658241272,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 37,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.8066620230674744,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 38,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8369007706642151,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 39,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8583581447601318,
+            "occupied_since_frame": 2028
+        },
+        {
+            "slot_id": 40,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8224930763244629,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 41,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8501404523849487,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 42,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8025396466255188,
+            "occupied_since_frame": 1827
+        },
+        {
+            "slot_id": 43,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8227084875106812,
+            "occupied_since_frame": 90
+        },
+        {
+            "slot_id": 44,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8340151906013489,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 45,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.845227837562561,
+            "occupied_since_frame": 1920
+        },
+        {
+            "slot_id": 46,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8052617311477661,
+            "occupied_since_frame": 2187
+        },
+        {
+            "slot_id": 47,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.853672206401825,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 48,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.7886214852333069,
+            "occupied_since_frame": 1494
+        },
+        {
+            "slot_id": 49,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8670564293861389,
+            "occupied_since_frame": 654
+        },
+        {
+            "slot_id": 50,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8717907667160034,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 51,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8215523362159729,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 52,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8407440781593323,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 53,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8116029500961304,
+            "occupied_since_frame": 1989
+        },
+        {
+            "slot_id": 54,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8686603903770447,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 55,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8208684325218201,
+            "occupied_since_frame": 1938
+        },
+        {
+            "slot_id": 56,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8346875309944153,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 57,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.8488740921020508,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 58,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.799731969833374,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 59,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7973679304122925,
+            "occupied_since_frame": 930
+        },
+        {
+            "slot_id": 60,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8988573551177979,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 61,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8628771901130676,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 62,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7803201079368591,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 63,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8697916269302368,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 64,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.7543684840202332,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 65,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8418362140655518,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 66,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8460256457328796,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 67,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.8108896613121033,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 68,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7827699780464172,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 69,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7566332221031189,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 70,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8686228394508362,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 71,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.8051181435585022,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 72,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7761229872703552,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 73,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7902379631996155,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 74,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.7463979721069336,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 75,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7699203491210938,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 76,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7562947273254395,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 77,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7889594435691833,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 78,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7663426995277405,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 79,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.7656381726264954,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 80,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.7385855317115784,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 81,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8462648391723633,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 82,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7609100937843323,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 83,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7597492933273315,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 84,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7753068804740906,
+            "occupied_since_frame": 1863
+        },
+        {
+            "slot_id": 85,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8793576955795288,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 86,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7802241444587708,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 87,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.7265848517417908,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 88,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8559390306472778,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 89,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8159058690071106,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 90,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7739834189414978,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 91,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7923109531402588,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 92,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8065372109413147,
+            "occupied_since_frame": 1827
+        },
+        {
+            "slot_id": 93,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.8319641351699829,
+            "occupied_since_frame": 1479
+        },
+        {
+            "slot_id": 94,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.758813738822937,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 95,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7561973929405212,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 96,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7121906876564026,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 97,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8510534763336182,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 98,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7948978543281555,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 99,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7323916554450989,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 100,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7369681596755981,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 101,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7637056708335876,
+            "occupied_since_frame": 2130
+        },
+        {
+            "slot_id": 102,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.7263516783714294,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 103,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7245468497276306,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 104,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8034527897834778,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 105,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8224884867668152,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 106,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7986392378807068,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 107,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7475962042808533,
+            "occupied_since_frame": 1449
+        },
+        {
+            "slot_id": 108,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8058640360832214,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 109,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7375962138175964,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 110,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6881416440010071,
+            "occupied_since_frame": 1920
+        },
+        {
+            "slot_id": 111,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6862474679946899,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 112,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8131760358810425,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 113,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.7607569694519043,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 114,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.681232213973999,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 115,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7387403249740601,
+            "occupied_since_frame": 1959
+        },
+        {
+            "slot_id": 116,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7608739733695984,
+            "occupied_since_frame": 2190
+        },
+        {
+            "slot_id": 117,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7211938500404358,
+            "occupied_since_frame": 2010
+        },
+        {
+            "slot_id": 118,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7562257647514343,
+            "occupied_since_frame": 2016
+        },
+        {
+            "slot_id": 119,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7892423868179321,
+            "occupied_since_frame": 2139
+        },
+        {
+            "slot_id": 120,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6950721740722656,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 121,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7616479992866516,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 122,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.7246634364128113,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 123,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7739041447639465,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 124,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7691366672515869,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 125,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7060301899909973,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 126,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.6751454472541809,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 127,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7825196385383606,
+            "occupied_since_frame": 2145
+        },
+        {
+            "slot_id": 128,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7001887559890747,
+            "occupied_since_frame": 1992
+        },
+        {
+            "slot_id": 129,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6628180742263794,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 130,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7824408411979675,
+            "occupied_since_frame": 2163
+        },
+        {
+            "slot_id": 131,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6773433089256287,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 132,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7025506496429443,
+            "occupied_since_frame": 1848
+        },
+        {
+            "slot_id": 133,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6940601468086243,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 134,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7810699343681335,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 135,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7490031719207764,
+            "occupied_since_frame": 2136
+        },
+        {
+            "slot_id": 136,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7828941941261292,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 137,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7334772348403931,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 138,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6742360591888428,
+            "occupied_since_frame": 2139
+        },
+        {
+            "slot_id": 139,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7112588286399841,
+            "occupied_since_frame": 2193
+        },
+        {
+            "slot_id": 140,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6900752186775208,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 141,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7800989151000977,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 142,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7207172513008118,
+            "occupied_since_frame": 2100
+        },
+        {
+            "slot_id": 143,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.777426540851593,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 144,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6635758876800537,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 145,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8195144534111023,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 146,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.9093186259269714,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 147,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.7080614566802979,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 148,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6641920804977417,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 149,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6648393869400024,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 150,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7878797054290771,
+            "occupied_since_frame": 936
+        },
+        {
+            "slot_id": 151,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6820228099822998,
+            "occupied_since_frame": 1704
+        },
+        {
+            "slot_id": 152,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7229800820350647,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 153,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.6153457760810852,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 154,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7801262736320496,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 155,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6524788737297058,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 156,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.6643588542938232,
+            "occupied_since_frame": 42
+        },
+        {
+            "slot_id": 157,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.638660728931427,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 158,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7250556349754333,
+            "occupied_since_frame": 1332
+        },
+        {
+            "slot_id": 159,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6405616998672485,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 160,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6249632835388184,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 161,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7277880907058716,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 162,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.596102237701416,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 163,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6001660823822021,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 164,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7501072287559509,
+            "occupied_since_frame": 966
+        },
+        {
+            "slot_id": 165,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6068812012672424,
+            "occupied_since_frame": 1695
+        },
+        {
+            "slot_id": 166,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6611844897270203,
+            "occupied_since_frame": 2112
+        },
+        {
+            "slot_id": 167,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.576369047164917,
+            "occupied_since_frame": 1329
+        },
+        {
+            "slot_id": 168,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.579738974571228,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 169,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.77373206615448,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 170,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6802871823310852,
+            "occupied_since_frame": 1884
+        },
+        {
+            "slot_id": 171,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.6014827489852905,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 172,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.6754404306411743,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 173,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.8063998818397522,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 174,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6814098954200745,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 175,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6308578848838806,
+            "occupied_since_frame": 1983
+        },
+        {
+            "slot_id": 176,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7724663615226746,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 177,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5915223360061646,
+            "occupied_since_frame": 1968
+        },
+        {
+            "slot_id": 178,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6885325312614441,
+            "occupied_since_frame": 1998
+        },
+        {
+            "slot_id": 179,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.6577644348144531,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 180,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6454893350601196,
+            "occupied_since_frame": 1968
+        },
+        {
+            "slot_id": 181,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6260626912117004,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 182,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.539975106716156,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 183,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.614084780216217,
+            "occupied_since_frame": 1704
+        },
+        {
+            "slot_id": 184,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.578662097454071,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 185,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5712734460830688,
+            "occupied_since_frame": 2196
+        },
+        {
+            "slot_id": 186,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.5695785880088806,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 187,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5728234648704529,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 188,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5640554428100586,
+            "occupied_since_frame": 1890
+        },
+        {
+            "slot_id": 189,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5623660087585449,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 190,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6517496109008789,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 191,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.579788088798523,
+            "occupied_since_frame": 1974
+        },
+        {
+            "slot_id": 192,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5111947655677795,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 193,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.603525698184967,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 194,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.5589074492454529,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 195,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6913931965827942,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 196,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7844638824462891,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 197,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7528523802757263,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 198,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.6919222474098206,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 199,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.6003779768943787,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 200,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7365294694900513,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 201,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.641214907169342,
+            "occupied_since_frame": 1911
+        },
+        {
+            "slot_id": 202,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.666315495967865,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 203,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6552042961120605,
+            "occupied_since_frame": 1920
+        },
+        {
+            "slot_id": 204,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6501510739326477,
+            "occupied_since_frame": 1971
+        },
+        {
+            "slot_id": 205,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.6151796579360962,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 206,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.501806914806366,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 207,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5561925172805786,
+            "occupied_since_frame": 1827
+        },
+        {
+            "slot_id": 208,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6331139802932739,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 209,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6306068301200867,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 210,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.8262704014778137,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 211,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.561771810054779,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 212,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.49233150482177734,
+            "occupied_since_frame": 1941
+        },
+        {
+            "slot_id": 213,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.6244897842407227,
+            "occupied_since_frame": 1947
+        },
+        {
+            "slot_id": 214,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6384577751159668,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 215,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5377801656723022,
+            "occupied_since_frame": 2124
+        },
+        {
+            "slot_id": 216,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6093688607215881,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 217,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.548535943031311,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 218,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.729049026966095,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 219,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7143697738647461,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 220,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5228604674339294,
+            "occupied_since_frame": 1947
+        },
+        {
+            "slot_id": 221,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6209823489189148,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 222,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6640601754188538,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 223,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.734630286693573,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 224,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5422343015670776,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 225,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.488424688577652,
+            "occupied_since_frame": 1914
+        },
+        {
+            "slot_id": 226,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7063151001930237,
+            "occupied_since_frame": 2037
+        },
+        {
+            "slot_id": 227,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.5047912001609802,
+            "occupied_since_frame": 1980
+        },
+        {
+            "slot_id": 228,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7138612866401672,
+            "occupied_since_frame": 1917
+        },
+        {
+            "slot_id": 229,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.6742374897003174,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 230,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.4824635982513428,
+            "occupied_since_frame": 1887
+        },
+        {
+            "slot_id": 231,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6261322498321533,
+            "occupied_since_frame": 1881
+        },
+        {
+            "slot_id": 232,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.4272213876247406,
+            "occupied_since_frame": 1929
+        },
+        {
+            "slot_id": 233,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5216938257217407,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 234,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.46575242280960083,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 235,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.6125704050064087,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 236,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.46284550428390503,
+            "occupied_since_frame": 2136
+        },
+        {
+            "slot_id": 237,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7836843729019165,
+            "occupied_since_frame": 2151
+        },
+        {
+            "slot_id": 238,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.3970319330692291,
+            "occupied_since_frame": 1992
+        },
+        {
+            "slot_id": 239,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5918710231781006,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 240,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.41591310501098633,
+            "occupied_since_frame": 1995
+        },
+        {
+            "slot_id": 241,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.5419356226921082,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 242,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.3976632058620453,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 243,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4057155251502991,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 244,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.65606689453125,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 245,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4432357847690582,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 246,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.537114143371582,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 247,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.4929356276988983,
+            "occupied_since_frame": 1968
+        },
+        {
+            "slot_id": 248,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.44607123732566833,
+            "occupied_since_frame": 2046
+        },
+        {
+            "slot_id": 249,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.40971362590789795,
+            "occupied_since_frame": 2094
+        },
+        {
+            "slot_id": 250,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6609501838684082,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 251,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5760268568992615,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 252,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6104562282562256,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 253,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4230740964412689,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 254,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.3960843086242676,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 255,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.3577077388763428,
+            "occupied_since_frame": 1404
+        },
+        {
+            "slot_id": 256,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5249200463294983,
+            "occupied_since_frame": 1998
+        },
+        {
+            "slot_id": 257,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.6082257628440857,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 258,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4128855764865875,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 259,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.3751627802848816,
+            "occupied_since_frame": 1860
+        },
+        {
+            "slot_id": 260,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.43827518820762634,
+            "occupied_since_frame": 1863
+        },
+        {
+            "slot_id": 261,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.4538894593715668,
+            "occupied_since_frame": 1419
+        },
+        {
+            "slot_id": 262,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.6453073024749756,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 263,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.48199865221977234,
+            "occupied_since_frame": 1995
+        },
+        {
+            "slot_id": 264,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.43768948316574097,
+            "occupied_since_frame": 2061
+        },
+        {
+            "slot_id": 265,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.7394120097160339,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 266,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6040807366371155,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 267,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4275429844856262,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 268,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.45830807089805603,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 269,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6064234972000122,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 270,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5965709090232849,
+            "occupied_since_frame": 2151
+        },
+        {
+            "slot_id": 271,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5364383459091187,
+            "occupied_since_frame": 2109
+        },
+        {
+            "slot_id": 272,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4346064627170563,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 273,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5239927172660828,
+            "occupied_since_frame": 1827
+        },
+        {
+            "slot_id": 274,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5493808388710022,
+            "occupied_since_frame": 1896
+        },
+        {
+            "slot_id": 275,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.34977400302886963,
+            "occupied_since_frame": 1929
+        },
+        {
+            "slot_id": 276,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.44743481278419495,
+            "occupied_since_frame": 2088
+        },
+        {
+            "slot_id": 277,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.5533263087272644,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 278,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6367231011390686,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 279,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5924543738365173,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 280,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.36745163798332214,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 281,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.41850265860557556,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 282,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5939351916313171,
+            "occupied_since_frame": 1932
+        },
+        {
+            "slot_id": 283,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.317305326461792,
+            "occupied_since_frame": 1950
+        },
+        {
+            "slot_id": 284,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.5411555767059326,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 285,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.28019967675209045,
+            "occupied_since_frame": 2019
+        },
+        {
+            "slot_id": 286,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.3800479471683502,
+            "occupied_since_frame": 1989
+        },
+        {
+            "slot_id": 287,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.47146421670913696,
+            "occupied_since_frame": 1962
+        },
+        {
+            "slot_id": 288,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.39075377583503723,
+            "occupied_since_frame": 1929
+        },
+        {
+            "slot_id": 289,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.2805996239185333,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 290,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.37714362144470215,
+            "occupied_since_frame": 1998
+        },
+        {
+            "slot_id": 291,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.2976319491863251,
+            "occupied_since_frame": 1992
+        },
+        {
+            "slot_id": 292,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.6912798881530762,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 293,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5802839398384094,
+            "occupied_since_frame": 1794
+        },
+        {
+            "slot_id": 294,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.3062498867511749,
+            "occupied_since_frame": 1881
+        },
+        {
+            "slot_id": 295,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.350049763917923,
+            "occupied_since_frame": 2064
+        },
+        {
+            "slot_id": 296,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6951316595077515,
+            "occupied_since_frame": 1935
+        },
+        {
+            "slot_id": 297,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.31252920627593994,
+            "occupied_since_frame": 1827
+        },
+        {
+            "slot_id": 298,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.3394000828266144,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 299,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6473146080970764,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 300,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.4375491440296173,
+            "occupied_since_frame": 1980
+        },
+        {
+            "slot_id": 301,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.3319682478904724,
+            "occupied_since_frame": 2103
+        },
+        {
+            "slot_id": 302,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.40627339482307434,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 303,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6940160989761353,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 304,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5623270869255066,
+            "occupied_since_frame": 1815
+        },
+        {
+            "slot_id": 305,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6261249780654907,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 306,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5439592599868774,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 307,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6277397274971008,
+            "occupied_since_frame": 1938
+        },
+        {
+            "slot_id": 308,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.6009896993637085,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 309,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.45776331424713135,
+            "occupied_since_frame": 1893
+        },
+        {
+            "slot_id": 310,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.31526175141334534,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 311,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4370172917842865,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 312,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5304698348045349,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 313,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.45619428157806396,
+            "occupied_since_frame": 1995
+        },
+        {
+            "slot_id": 314,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.458957314491272,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 315,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.48500287532806396,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 316,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5946807861328125,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 317,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.3278341591358185,
+            "occupied_since_frame": 1881
+        },
+        {
+            "slot_id": 318,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.43551456928253174,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 319,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.37491241097450256,
+            "occupied_since_frame": 2109
+        },
+        {
+            "slot_id": 320,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.7578777074813843,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 321,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.42347073554992676,
+            "occupied_since_frame": 2082
+        },
+        {
+            "slot_id": 322,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4037952423095703,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 323,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6111969947814941,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 324,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.39364534616470337,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 325,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.35935187339782715,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 326,
+            "status": "occupied",
+            "wrong_parking": true,
+            "confidence": 0.35064077377319336,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 327,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.39054185152053833,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 328,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.4439132809638977,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 329,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.48169398307800293,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 330,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.4582591950893402,
+            "occupied_since_frame": 1929
+        },
+        {
+            "slot_id": 331,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.5000502467155457,
+            "occupied_since_frame": 39
+        },
+        {
+            "slot_id": 332,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.3489946722984314,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 333,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.47881942987442017,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 334,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.345281720161438,
+            "occupied_since_frame": 1878
+        },
+        {
+            "slot_id": 335,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.3699173331260681,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 336,
+            "status": "empty",
+            "wrong_parking": false,
+            "confidence": 0.405959814786911,
+            "occupied_since_frame": null
+        },
+        {
+            "slot_id": 337,
+            "status": "occupied",
+            "wrong_parking": false,
+            "confidence": 0.6499778628349304,
+            "occupied_since_frame": 39
+        }
+    ]
+}
