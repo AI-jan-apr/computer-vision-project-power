@@ -6,51 +6,121 @@ from ultralytics import YOLO
 # ============================================================
 # CONFIG
 # ============================================================
+# This section contains all the main project settings and file paths.
+# Instead of hardcoding full absolute paths manually, we build them
+# dynamically starting from the current working directory.
+# This makes the code easier to move between machines as long as the
+# folder structure stays the same.
 
 BASE_DIR = os.getcwd()
 
-VIDEO_PATH = os.path.join(BASE_DIR, "testvideo.mp4")
+# Input video:
+# This is the parking lot video that will be processed frame by frame.
+# We placed it under the "src" folder
+VIDEO_PATH = os.path.join(BASE_DIR, "src","testvideo.mp4")
+
+# Output video:
+# This is the annotated video that the system writes after processing.
+# It will contain the parking slot boxes, car boxes, labels, timers,
+# wrong parking markings, and summary info drawn on each frame.
 OUTPUT_VIDEO_PATH = os.path.join(BASE_DIR, "parking_system_output.mp4")
-EVENTS_JSON_PATH = os.path.join(BASE_DIR, "parking_system_events.json")
-STATUS_JSON_PATH = os.path.join(BASE_DIR, "parking_status.json")
-LATEST_FRAME_PATH = os.path.join(BASE_DIR, "latest_frame.jpg")
 
-CAR_MODEL_PATH = os.path.join(BASE_DIR, "best-2.pt")
-SLOT_MODEL_PATH = os.path.join(BASE_DIR, "parking_slots_detector.pt")
+# Events JSON:
+# This file stores important parking events discovered by the system,
+# such as when a slot becomes occupied, when it becomes empty again,
+# and when a parking limit is exceeded.
+EVENTS_JSON_PATH = os.path.join(BASE_DIR, "src", "parking_system_events.json")
 
-# Notebook-compatible thresholds
+# Status JSON:
+# This file acts like the "live backend state" of the parking lot.
+# It stores summary data such as total slots, occupied slots,
+# empty slots, wrong parking count, and per-slot status.
+# FastAPI reads this file so the frontend can display the latest data.
+STATUS_JSON_PATH = os.path.join(BASE_DIR, "src", "parking_status.json")
+
+# Latest frame:
+# This file stores the newest processed frame as a JPEG image.
+# FastAPI uses it to serve the latest visual result to the interface,
+# and it is also used by the MJPEG video feed endpoint.
+LATEST_FRAME_PATH = os.path.join(BASE_DIR,"src", "latest_frame.jpg")
+
+# Car model:
+# This YOLO model is responsible for detecting cars in the parking lot.
+CAR_MODEL_PATH = os.path.join(BASE_DIR, "src","best-2.pt")
+
+# Parking slot model:
+# This YOLO model is responsible for detecting parking slots.
+# We use it mainly during the initialization phase to "freeze" the slots.
+SLOT_MODEL_PATH = os.path.join(BASE_DIR, "src", "parking_slots_detector.pt")
+
+# Detection confidence thresholds:
+# These define the minimum confidence that YOLO detections must have
+# before we accept them as valid.
+# Lower threshold = more detections, but more false positives.
+# Higher threshold = fewer detections, but possibly missing some objects.
 SLOT_CONF_THRESHOLD = 0.15
 CAR_CONF_THRESHOLD = 0.25
 
-# Better freezing
+# Slot freezing parameters:
+# The parking slot model is not run permanently for the final slot structure.
+# Instead, we detect slots over an initialization period, merge repeated
+# detections, and then freeze the best stable slot layout.
 INIT_FRAMES_COUNT = 30
 MERGE_IOU_THRESHOLD = 0.30
 MIN_SEEN_FOR_STABLE_SLOT = 2
 
-# Occupancy
+# Occupancy logic:
+# This controls how we decide whether a detected car belongs to a slot.
+# A car can belong to a slot if:
+# - its bottom center lies inside the slot, OR
+# - the IoU overlap with the slot exceeds this threshold
 SLOT_IOU_THRESHOLD = 0.15
 
-# Temporal smoothing
+# Temporal smoothing:
+# We do not trust a single frame immediately.
+# A slot must repeatedly appear occupied or empty for a few frames
+# before the stable state is officially changed.
+# This reduces flickering and noisy state changes.
 OCCUPIED_CONFIRM_FRAMES = 3
 EMPTY_CONFIRM_FRAMES = 3
 
-# Wrong parking
+# Wrong parking detection parameters:
+# These values control how aggressively we detect a car that is spanning
+# more than one parking slot.
+# The logic checks overlap with nearby slots and confirms the case only
+# if the car appears to significantly occupy multiple slots.
 WRONG_PARKING_MIN_OVERLAP = 0.10
 WRONG_PARKING_PRIMARY_OVERLAP = 0.20
 WRONG_PARKING_SECONDARY_OVERLAP = 0.18
 WRONG_PARKING_SIMILARITY_RATIO = 0.80
 WRONG_PARKING_CONFIRM_FRAMES = 3
 
-# Shrink slot boxes slightly for wrong-parking logic only
+# Slot box shrinking for wrong-parking detection only:
+# For wrong parking, we intentionally shrink the slot boxes slightly.
+# Why?
+# Because full boxes may touch neighboring cars/slots too easily,
+# especially when the parking lines are close together.
+# Shrinking helps make the wrong parking logic stricter and cleaner.
 WRONG_BOX_SHRINK_X = 0.08
 WRONG_BOX_SHRINK_Y = 0.06
 
-# Demo timer
+# Demo timer:
+# This is the time limit for demonstrating the parking timer feature.
+# In a real system this would likely be much higher, but for demo/testing
+# we keep it small so the warning/limit logic can appear quickly.
 PARKING_LIMIT_SECONDS = 5
 
 # IMPORTANT: compute-saving update interval
+# Instead of running full detection on every single frame, we only
+# fully process every Nth frame after initialization.
+# This reduces computation cost and still keeps the system responsive.
+# Example:
+# If this is 3, then full detection happens roughly every 3 frames.
 PROCESS_EVERY_N_FRAMES = 3
 
+# Visualization / output switches:
+# SHOW_VIDEO controls whether OpenCV opens a live window while processing.
+# SAVE_VIDEO controls whether the final annotated output video is written.
 SHOW_VIDEO = True
 SAVE_VIDEO = True
 
@@ -58,8 +128,18 @@ SAVE_VIDEO = True
 # ============================================================
 # GEOMETRY HELPERS
 # ============================================================
+# This block contains geometric helper functions.
+# These are used repeatedly throughout the logic for comparing boxes,
+# checking spatial relationships, and deciding occupancy / wrong parking.
 
 def iou(boxA, boxB):
+    # IoU = Intersection over Union
+    # This measures how much two boxes overlap relative to their total size.
+    # It is a standard metric used in computer vision.
+    # Value range:
+    # 0.0  -> no overlap
+    # 1.0  -> perfect overlap
+
     xA = max(boxA[0], boxB[0])
     yA = max(boxA[1], boxB[1])
     xB = min(boxA[2], boxB[2])
@@ -77,21 +157,37 @@ def iou(boxA, boxB):
 
 
 def point_in_box(box, x, y):
+    # Checks if a given point (x, y) lies inside a bounding box.
+    # This is especially useful for using the bottom-center of a car
+    # as a strong indicator of which slot it belongs to.
     x1, y1, x2, y2 = box
     return x1 <= x <= x2 and y1 <= y <= y2
 
 
 def car_bottom_center(car_box):
+    # Returns the bottom-center point of a detected car box.
+    # Why bottom-center?
+    # Because for parked cars, the lower central region usually aligns
+    # better with the actual slot the car occupies than the full box center.
     x1, _, x2, y2 = car_box
     return (x1 + x2) / 2.0, y2
 
 
 def is_car_in_slot(slot_box, car_box):
+    # Main helper for deciding if a car belongs to a slot.
+    # We consider the car inside the slot if:
+    # 1) the bottom-center point of the car lies inside the slot, OR
+    # 2) the IoU overlap is large enough
+    # This hybrid approach is much more robust than using only one method.
     cx, cy = car_bottom_center(car_box)
     return point_in_box(slot_box, cx, cy) or iou(slot_box, car_box) >= SLOT_IOU_THRESHOLD
 
 
 def shrink_box(box, shrink_x_ratio=0.08, shrink_y_ratio=0.06):
+    # Creates a slightly smaller version of a bounding box.
+    # This is used only for wrong parking detection to avoid overly
+    # sensitive overlap with neighboring slots.
+    # We reduce the width and height by a percentage from all sides.
     x1, y1, x2, y2 = box
     w = x2 - x1
     h = y2 - y1
@@ -104,6 +200,8 @@ def shrink_box(box, shrink_x_ratio=0.08, shrink_y_ratio=0.06):
     nx2 = x2 - dx
     ny2 = y2 - dy
 
+    # Safety check:
+    # If shrinking produces an invalid box, fall back to the original box.
     if nx2 <= nx1:
         nx1, nx2 = x1, x2
     if ny2 <= ny1:
@@ -115,8 +213,16 @@ def shrink_box(box, shrink_x_ratio=0.08, shrink_y_ratio=0.06):
 # ============================================================
 # DETECTION HELPERS
 # ============================================================
+# These functions wrap the YOLO inference logic for slots and cars.
+# They convert raw YOLO outputs into simpler Python dictionaries that
+# the rest of the pipeline can use more easily.
 
 def detect_slots(frame, slot_model):
+    # Runs the slot detection model on the current frame.
+    # Returns a list of detected parking slot boxes with:
+    # - bbox
+    # - predicted class label
+    # - confidence score
     results = slot_model(frame, conf=SLOT_CONF_THRESHOLD, verbose=False)[0]
     slots = []
 
@@ -136,6 +242,10 @@ def detect_slots(frame, slot_model):
 
 
 def detect_cars(frame, car_model):
+    # Runs the car detection model on the current frame.
+    # Returns detected cars with their box and confidence.
+    # We do not care about multiple car classes here; the model is used
+    # mainly as a generic car detector for occupancy and wrong parking logic.
     results = car_model(frame, conf=CAR_CONF_THRESHOLD, verbose=False)[0]
     cars = []
 
@@ -153,8 +263,14 @@ def detect_cars(frame, car_model):
 # ============================================================
 # FREEZING HELPERS
 # ============================================================
+# The parking slots should not jump around every frame.
+# So we detect them for a while, merge similar boxes, and then freeze
+# a stable slot layout that the rest of the system will trust.
 
 def merge_slot(merged_slots, new_slot):
+    # Tries to merge a newly detected slot into an existing merged slot list.
+    # If a new slot overlaps enough with an already known slot,
+    # we treat them as the same slot and update the best version of it.
     for slot in merged_slots:
         if iou(slot["bbox"], new_slot["bbox"]) >= MERGE_IOU_THRESHOLD:
             slot["seen"] += 1
@@ -164,11 +280,15 @@ def merge_slot(merged_slots, new_slot):
                 slot["conf"] = new_slot["conf"]
             return
 
+    # If no similar existing slot was found, add this as a new candidate slot.
     new_slot["seen"] = 1
     merged_slots.append(new_slot)
 
 
 def freeze_slots(merged_slots, best_frame_slots):
+    # Builds the final frozen slot list.
+    # We prefer slots that were seen multiple times, because they are more stable.
+    # If the merged result is too weak, we fall back to the single best frame.
     frozen = []
     slot_id = 1
 
@@ -192,6 +312,13 @@ def freeze_slots(merged_slots, best_frame_slots):
 
 
 def init_slot_runtime(frozen_slots):
+    # Initializes per-slot runtime state.
+    # Each frozen slot gets an internal state dictionary to track:
+    # - stable occupied/empty state
+    # - temporary candidate state
+    # - candidate counter for smoothing
+    # - when occupancy started
+    # - whether parking limit alert was already triggered
     return {
         slot["slot_id"]: {
             "stable_state": "empty",
@@ -206,14 +333,26 @@ def init_slot_runtime(frozen_slots):
 
 
 def init_wrong_runtime(frozen_slots):
+    # Initializes a counter for wrong parking confirmation per slot.
+    # We use this so that wrong parking must persist for a few frames
+    # before being confirmed.
     return {slot["slot_id"]: 0 for slot in frozen_slots}
 
 
 # ============================================================
 # WRONG PARKING
 # ============================================================
+# This block contains the wrong parking logic.
+# The idea is:
+# - compare each car to nearby slots
+# - see whether it strongly overlaps multiple slots
+# - use bottom-center logic to avoid false positives
+# - confirm only if the situation persists
 
 def detect_wrong_parking_candidates(cars, frozen_slots):
+    # Detects candidate wrong parking cases for the current frame.
+    # A candidate means:
+    # the car appears to significantly occupy more than one slot.
     wrong_events = []
 
     shrunk_slots = {
@@ -260,6 +399,8 @@ def detect_wrong_parking_candidates(cars, frozen_slots):
         if not strong_split:
             continue
 
+        # If the car clearly belongs to just one slot by bottom center,
+        # we only call it wrong if the overlap split is extremely strong.
         if len(center_inside_slots) == 1 and center_inside_slots[0] == slot1:
             extremely_split = (ov1 >= 0.34 and ov2 >= 0.28 and ov2 >= ov1 * 0.92)
             if not extremely_split:
@@ -275,6 +416,12 @@ def detect_wrong_parking_candidates(cars, frozen_slots):
 
 
 def confirm_wrong_slots(candidate_wrong_slot_ids, wrong_runtime):
+    # Wrong parking should not be confirmed from one noisy frame.
+    # So for each slot:
+    # - if it keeps appearing as wrong, increment its counter
+    # - otherwise reset the counter
+    # Once the counter reaches the configured threshold,
+    # we consider it a confirmed wrong parking slot.
     confirmed_wrong_slot_ids = set()
 
     for sid in wrong_runtime:
@@ -292,8 +439,12 @@ def confirm_wrong_slots(candidate_wrong_slot_ids, wrong_runtime):
 # ============================================================
 # UI HELPERS
 # ============================================================
+# These functions draw the visual overlays on the frame.
+# They are only responsible for display, not logic.
 
 def draw_label_box(frame, text, x, y, bg_color, text_color=(0, 0, 0)):
+    # Draws a solid colored label background with text inside.
+    # This helps make labels readable regardless of the frame content.
     font = cv2.FONT_HERSHEY_SIMPLEX
     font_scale = 0.55
     thickness = 2
@@ -319,6 +470,10 @@ def draw_label_box(frame, text, x, y, bg_color, text_color=(0, 0, 0)):
 
 
 def draw_detection_style_box(frame, box, label, conf, is_wrong=False):
+    # Draws the slot box using the chosen style:
+    # - orange if wrongly parked
+    # - cyan if occupied
+    # - blue if empty
     x1, y1, x2, y2 = box
 
     if is_wrong:
@@ -333,6 +488,12 @@ def draw_detection_style_box(frame, box, label, conf, is_wrong=False):
 
 
 def draw_summary_panel(frame, total_cars, occupied_count, empty_count, wrong_count):
+    # Draws the summary information panel in the top-left corner.
+    # This provides a quick overview of:
+    # - total detected cars
+    # - occupied slots
+    # - empty slots
+    # - wrongly parked slots
     overlay = frame.copy()
 
     x1, y1 = 10, 10
@@ -352,6 +513,9 @@ def draw_summary_panel(frame, total_cars, occupied_count, empty_count, wrong_cou
 
 
 def draw_cars(frame, cars):
+    # Draws the detected car boxes on the frame.
+    # Cars are shown separately from parking slots so the user can visually
+    # understand how occupancy decisions are being made.
     for car in cars:
         x1, y1, x2, y2 = car["bbox"]
         conf = car["conf"]
@@ -372,6 +536,14 @@ def draw_cars(frame, cars):
 # ============================================================
 # SLOT STATE UPDATE
 # ============================================================
+# This is one of the most important blocks.
+# It updates each slot's runtime state based on current car detections.
+# It handles:
+# - occupancy smoothing
+# - occupancy start / end events
+# - time counting
+# - parking limit alerts
+# - wrong parking visual marking
 
 def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_ids, event_log):
     slot_id = slot["slot_id"]
@@ -380,6 +552,7 @@ def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_
     raw_occupied = False
     best_iou = 0.0
 
+    # Check all cars against this slot and determine whether the slot is occupied.
     for car in cars:
         overlap = iou(slot_box, car["bbox"])
         best_iou = max(best_iou, overlap)
@@ -389,12 +562,17 @@ def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_
 
     raw_state = "occupied" if raw_occupied else "empty"
 
+    # Candidate logic:
+    # We do not immediately trust the raw state.
+    # We count how many consecutive frames this state has appeared.
     if slot_state["candidate_state"] == raw_state:
         slot_state["candidate_count"] += 1
     else:
         slot_state["candidate_state"] = raw_state
         slot_state["candidate_count"] = 1
 
+    # If the stable state is empty, we only switch to occupied after
+    # enough repeated confirmation frames.
     if slot_state["stable_state"] == "empty":
         if raw_state == "occupied" and slot_state["candidate_count"] >= OCCUPIED_CONFIRM_FRAMES:
             slot_state["stable_state"] = "occupied"
@@ -407,6 +585,8 @@ def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_
                 "event": "occupied_started"
             })
 
+    # If the stable state is occupied, we only switch back to empty after
+    # enough repeated empty confirmations.
     elif slot_state["stable_state"] == "occupied":
         if raw_state == "empty" and slot_state["candidate_count"] >= EMPTY_CONFIRM_FRAMES:
             duration_frames = frame_idx - slot_state["occupied_since_frame"] if slot_state["occupied_since_frame"] else 0
@@ -425,6 +605,8 @@ def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_
 
     final_state = slot_state["stable_state"]
 
+    # If the slot is occupied, compute how long it has been occupied.
+    # If it exceeds the configured limit, add an event and mark the slot as alerted.
     elapsed_seconds = 0.0
     if final_state == "occupied" and slot_state["occupied_since_frame"] is not None:
         elapsed_seconds = (frame_idx - slot_state["occupied_since_frame"]) / fps
@@ -440,6 +622,7 @@ def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_
 
     display_conf = slot["conf"]
 
+    # Draw the slot using the final stable state.
     draw_detection_style_box(
         frame,
         slot_box,
@@ -450,14 +633,17 @@ def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_
 
     x1, _, _, y2 = slot_box
 
+    # If occupied, draw the elapsed time below the slot.
     if final_state == "occupied":
         cv2.putText(frame, f"{elapsed_seconds:.1f}s", (x1, y2 + 18),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.50, (0, 0, 255), 2)
 
+    # If wrongly parked, draw the WRONG warning.
     if slot_id in wrong_slot_ids:
         cv2.putText(frame, "WRONG", (x1, y2 + 40),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 165, 255), 2)
 
+    # If parking limit exceeded, draw the LIMIT warning.
     if slot_state["alerted_limit"]:
         cv2.putText(frame, "LIMIT!", (x1, y2 + 62),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 0, 255), 2)
@@ -465,6 +651,8 @@ def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_
     occupied = 1 if final_state == "occupied" else 0
     empty = 1 if final_state == "empty" else 0
 
+    # Debug print:
+    # This is useful during development to inspect how the slot behaves.
     print(
         f"Slot {slot_id}: stable={final_state.upper()} | "
         f"raw={raw_state.upper()} | best_iou={best_iou:.2f} | "
@@ -477,6 +665,8 @@ def update_slot_state(frame, slot, cars, slot_state, frame_idx, fps, wrong_slot_
 # ============================================================
 # STATUS JSON WRITER
 # ============================================================
+# This block writes the live backend status to a JSON file.
+# FastAPI uses this file to serve the parking state to the frontend.
 
 def write_status_json(
     frame_idx,
@@ -492,6 +682,7 @@ def write_status_json(
 
     slots_payload = []
 
+    # For each slot, export a simplified status object that the API and UI can consume.
     for slot in frozen_slots:
         slot_id = slot["slot_id"]
         state = slot_runtime[slot_id]["stable_state"]
@@ -531,21 +722,37 @@ def write_status_json(
 # ============================================================
 # MAIN
 # ============================================================
+# This is the main execution loop of the full parking system.
+# It handles:
+# - model loading
+# - video reading
+# - initialization/freeze phase
+# - runtime detection phase
+# - drawing
+# - status writing
+# - latest frame saving
+# - optional video saving and live display
 
 def main():
+    # Load both YOLO models:
+    # - slot model for parking slot detection
+    # - car model for vehicle detection
     slot_model = YOLO(SLOT_MODEL_PATH)
     car_model = YOLO(CAR_MODEL_PATH)
 
+    # Open the input video file.
     cap = cv2.VideoCapture(VIDEO_PATH)
     if not cap.isOpened():
         raise FileNotFoundError(f"Could not open video: {VIDEO_PATH}")
 
+    # Read video properties to support timers and video writing.
     fps = cap.get(cv2.CAP_PROP_FPS) or 25.0
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
     writer = None
     if SAVE_VIDEO:
+        # If enabled, prepare the output video writer.
         fourcc = cv2.VideoWriter_fourcc(*"mp4v")
         writer = cv2.VideoWriter(OUTPUT_VIDEO_PATH, fourcc, fps, (width, height))
 
@@ -559,7 +766,9 @@ def main():
     best_frame_slots = []
     best_frame_slot_count = 0
 
-    # Cached results for skipped frames
+    # Cached results for skipped frames:
+    # Since we do not fully process every frame, we keep the latest valid
+    # processed results and reuse them on skipped frames to save computation.
     last_cars = []
     last_total_cars = 0
     last_confirmed_wrong_slot_ids = set()
@@ -569,6 +778,8 @@ def main():
     while True:
         ret, frame = cap.read()
         if not ret:
+         # If the video reaches the end, restart from frame 0.
+         # This makes the demo run continuously in a loop.
          cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
          continue
 
@@ -576,6 +787,11 @@ def main():
         print(f"Processing frame {frame_idx}")
 
         # ---------------- Initialization phase ----------------
+        # During the first INIT_FRAMES_COUNT frames:
+        # - detect parking slots repeatedly
+        # - merge stable detections
+        # - remember the best slot frame
+        # At the end of this phase, freeze the final slot layout.
         if frozen_slots is None:
             current_slots = detect_slots(frame, slot_model)
 
@@ -610,14 +826,22 @@ def main():
                 wrong_runtime = init_wrong_runtime(frozen_slots)
                 print(f"Frozen {len(frozen_slots)} slots")
 
-            # During initialization also save latest frame for API
+            # Even during initialization, save the latest processed frame
+            # so the API can still display something.
             cv2.imwrite(LATEST_FRAME_PATH, frame)
 
         # ---------------- Runtime phase ----------------
+        # Once slots are frozen, the system switches to runtime logic:
+        # - detect cars
+        # - detect wrong parking
+        # - update slot states
+        # - draw all overlays
+        # - write status JSON and latest frame
         else:
             should_process = ((frame_idx - INIT_FRAMES_COUNT) % PROCESS_EVERY_N_FRAMES == 0)
 
             if should_process:
+                # Full detection/update pass
                 cars = detect_cars(frame, car_model)
                 total_cars = len(cars)
 
@@ -647,7 +871,7 @@ def main():
                     occupied_count += occ
                     empty_count += emp
 
-                # cache latest processed results
+                # Cache latest processed results so skipped frames can reuse them.
                 last_cars = cars
                 last_total_cars = total_cars
                 last_confirmed_wrong_slot_ids = confirmed_wrong_slot_ids
@@ -655,7 +879,9 @@ def main():
                 last_empty_count = empty_count
 
             else:
-                # skipped frame: draw using last known results only
+                # Skipped frame:
+                # Do not run new detections.
+                # Instead, reuse the last known processed state and simply redraw it.
                 cars = last_cars
                 total_cars = last_total_cars
                 confirmed_wrong_slot_ids = last_confirmed_wrong_slot_ids
@@ -709,6 +935,7 @@ def main():
                             2
                         )
 
+            # Draw cars and summary panel every runtime frame.
             draw_cars(frame, cars)
 
             draw_summary_panel(
@@ -719,6 +946,7 @@ def main():
                 len(confirmed_wrong_slot_ids)
             )
 
+            # Export the current system state for FastAPI/frontend.
             write_status_json(
                 frame_idx=frame_idx,
                 frozen_slots=frozen_slots,
@@ -729,6 +957,7 @@ def main():
                 empty_count=empty_count
             )
 
+            # Save the latest processed frame for snapshot/API streaming.
             cv2.imwrite(LATEST_FRAME_PATH, frame)
 
         if writer is not None:
@@ -744,6 +973,7 @@ def main():
         writer.release()
     cv2.destroyAllWindows()
 
+    # When the program finishes, dump the full event log to JSON.
     with open(EVENTS_JSON_PATH, "w") as f:
         json.dump(event_log, f, indent=4)
 
