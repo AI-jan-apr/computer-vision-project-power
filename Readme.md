@@ -59,7 +59,7 @@ A working system capable of detecting cars, identifying parking status (occupied
 
 ### Number of Samples
 - The dataset consists of labeled images  
-- (You can add the exact number if available)  
+ 
 
 ### Preprocessing
 - Converted data into YOLO format (images + labels)  
