@@ -1,11 +1,11 @@
 import json
-<<<<<<< HEAD
+
 
 with open("slots.json") as f:
     data = json.load(f)
 
 print(data)
-=======
+
 import cv2
 import numpy as np
 
