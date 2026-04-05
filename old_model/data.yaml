@@ -1,0 +1,7 @@
+path: /Users/slom/Downloads/old_model/dataset
+train: images
+val: images
+test: images
+
+nc: 1
+names: ['car']

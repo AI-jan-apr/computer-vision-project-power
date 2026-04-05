@@ -1,3 +1,24 @@
+<<<<<<< HEAD
 testvideo.mp4
 parking_system_output.mp4
 
+=======
+
+# ignore ALL videos
+*.mp4
+
+# generated outputs
+frozen_outputs/
+fusion_outputs/
+*.png
+parking_events.json
+auto_slots.json
+frozen_slots.json
+
+# macOS
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
+>>>>>>> test

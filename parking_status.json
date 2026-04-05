@@ -1,0 +1,62 @@
+{
+    "frame": 265,
+    "summary": {
+        "total_slots": 7,
+        "occupied_slots": 4,
+        "empty_slots": 3,
+        "occupancy_rate": 57.1,
+        "active_alerts": 4,
+        "wrong_parking_count": 0
+    },
+    "slots": [
+        {
+            "slot_id": 1,
+            "status": "occupied",
+            "elapsed_seconds": 8.1,
+            "limit_exceeded": true,
+            "wrong_parking": false
+        },
+        {
+            "slot_id": 2,
+            "status": "empty",
+            "elapsed_seconds": 0.0,
+            "limit_exceeded": false,
+            "wrong_parking": false
+        },
+        {
+            "slot_id": 3,
+            "status": "occupied",
+            "elapsed_seconds": 5.6,
+            "limit_exceeded": true,
+            "wrong_parking": false
+        },
+        {
+            "slot_id": 4,
+            "status": "empty",
+            "elapsed_seconds": 0.0,
+            "limit_exceeded": false,
+            "wrong_parking": false
+        },
+        {
+            "slot_id": 5,
+            "status": "occupied",
+            "elapsed_seconds": 8.1,
+            "limit_exceeded": true,
+            "wrong_parking": false
+        },
+        {
+            "slot_id": 6,
+            "status": "occupied",
+            "elapsed_seconds": 8.1,
+            "limit_exceeded": true,
+            "wrong_parking": false
+        },
+        {
+            "slot_id": 7,
+            "status": "empty",
+            "elapsed_seconds": 0.0,
+            "limit_exceeded": false,
+            "wrong_parking": false
+        }
+    ]
+}
