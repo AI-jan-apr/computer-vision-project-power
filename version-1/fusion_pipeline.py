@@ -21,9 +21,9 @@ BASE_DIR = os.getcwd()
 
 # File paths
 EMPTY_IMAGE = os.path.join(BASE_DIR, "..", "empty_parking.jpg")   # Reference image (empty parking lot)
-IMAGE_PATH = os.path.join(BASE_DIR, "..", "src", "frames_sorted") # Input frames folder
+IMAGE_PATH = os.path.join(BASE_DIR, "..", "version-1", "frames_sorted") # Input frames folder
 SLOTS_FILE = os.path.join(BASE_DIR, "..", "slots.json")           # Parking slot coordinates
-MODEL_PATH = os.path.join(BASE_DIR, "..", "src", "best-2.pt")     # Trained YOLO model
+MODEL_PATH = os.path.join(BASE_DIR, "..", "version-1", "best.pt")     # Trained YOLO model
 
 SHOW_IMAGE = True  # Toggle visualization
 

@@ -13,7 +13,7 @@ BASE_DIR = os.getcwd()
 
 # File paths
 EMPTY_IMAGE = os.path.join(BASE_DIR, "empty_parking.jpg")          # Reference empty parking image
-FRAMES_FOLDER = os.path.join(BASE_DIR, "src", "frames_test")       # Input test images
+FRAMES_FOLDER = os.path.join(BASE_DIR, "version-1", "frames_test")       # Input test images
 SLOTS_FILE = os.path.join(BASE_DIR, "slots.json")                  # Parking slot coordinates
 
 SHOW_IMAGES = True  # Toggle visualization
