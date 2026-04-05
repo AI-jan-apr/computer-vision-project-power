@@ -11,12 +11,12 @@ The project applies deep learning and object detection techniques to solve a rea
 
 ## 👥 Team Information
 
-| Name | Role | Contribution |
-|------|------|-------------|
-| Abdulslam | Team Leader | model training, model improvement, evaluation, and data labeling |
-| Faisal | Model training, model improvement, and data labeling |
-| Hanan | ROI implementation, data collection, data labeling, and frontend development |
-| Fozia | Data collection, data labeling, frontend development, and presentation preparation |
+| Name       | Role          | Contribution |
+|------------|--------------|-------------|
+| Abdulslam  | Team Leader   | Project management, model development, evaluation, and data labeling |
+| Faisal     | Model Development | Model training, model improvement, and data labeling |
+| Hanan      | ROI & Frontend | ROI implementation, data collection, data labeling, and frontend development |
+| Fozia      | Frontend & Presentation | Data collection, data labeling, frontend development, and presentation preparation |
 
 ---
 
