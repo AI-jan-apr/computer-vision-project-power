@@ -10,16 +10,13 @@ The project applies deep learning and object detection techniques to solve a rea
 ---
 
 ## 👥 Team Information
-Each team must clearly list all members and their contributions.
 
 | Name | Role | Contribution |
 |------|------|-------------|
-| Member 1 | Example: Team Leader | Managed the project and coordination |
-| Member 2 | Example: Data Engineer | Data collection and preprocessing |
-| Member 3 | Example: ML Engineer | Model building and training |
-| Member 4 | Example: Developer | Implementation and testing |
-
-⚠️ Each member must have a **clear and specific responsibility**.
+| Abdulslam | Team Leader | Project management, model training, model improvement, evaluation, and data labeling |
+| Faisal | Model Development | Model training, model improvement, and data labeling |
+| Hanan | ROI & Data Collection | ROI implementation, data collection, and data labeling |
+| Fozia | Data Collection & Presentation | Data collection, data labeling, and presentation preparation |
 
 ---
 
@@ -60,7 +57,7 @@ A working system capable of detecting cars, identifying parking status (occupied
 
 ### Number of Samples
 - The dataset consists of labeled images  
-- (You can add the exact number if available)  
+- You can add the exact number if available  
 
 ### Preprocessing
 - Converted data into YOLO format (images + labels)  
