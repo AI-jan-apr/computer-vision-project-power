@@ -40,35 +40,37 @@ A working system capable of detecting cars, identifying parking status (occupied
 
 ## 📂 Dataset
 
-- A combination of two datasets was used:
+- A combination of multiple datasets was used:
   - **COCO Dataset** as a pretrained base, which includes the "car" class  
-  - **PKLot Dataset** for parking environments, containing top-view images  
+  - **PKLot Dataset** for parking environments, containing top-view images of vehicles  
+  - **Car Parking Computer Vision Model Dataset**, which includes labeled parking spaces as **empty** or **occupied**  
 
 ### Data Source
 - COCO Dataset (general dataset for pretraining)  
-- PKLot Dataset (specialized dataset for parking scenarios)  
+- PKLot Dataset (parking lot dataset for vehicle detection)  
+- Car Parking Computer Vision Model Dataset (parking occupancy dataset)  
 - **Roboflow** was used for data labeling and management  
 
 ### Dataset Description
 - The dataset includes:
   - Images of parking areas  
   - Bounding box annotations for **cars (car)**  
-  - Bounding box annotations for **parking slots**  
+  - Labels for parking spaces indicating **empty** or **occupied**  
 
 ### Number of Samples
 - The dataset consists of labeled images  
-- You can add the exact number if available  
+- (You can add the exact number if available)  
 
 ### Preprocessing
 - Converted data into YOLO format (images + labels)  
-- Standardized class labels (car and parking)  
+- Standardized class labels (car and parking states: empty / occupied)  
 - Organized dataset structure (dataset/images and dataset/labels)  
 - Used Roboflow for data cleaning and annotation verification  
 
 ### Notes
-- The dataset was highly biased toward top-view vehicles, which affected the model’s ability to generalize to other perspectives such as side-view  
-- The availability of parking slot labels helped in determining whether a parking space is occupied or empty  
-
+- PKLot dataset mainly contains top-view images, which introduced bias in the model  
+- Limited side-view data affected generalization  
+- The addition of parking occupancy labels (empty / occupied) improved parking status detection  
 ---
 
 ## 🧠 Methodology
